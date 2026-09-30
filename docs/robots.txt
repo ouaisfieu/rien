@@ -1,0 +1,5 @@
+# Rien (ou presque)
+User-agent: *
+Allow: /
+
+Sitemap: https://ouaisfieu.github.io/rien/sitemap.xml

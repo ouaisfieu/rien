@@ -1,0 +1,222 @@
+[
+ {
+  "id": "axiome",
+  "term": "Axiome",
+  "def": "Énoncé admis sans démonstration, qui sert de point de départ à un système déductif. Les théorèmes d'un système ne sont jamais « plus vrais » que ses axiomes : ils en découlent.",
+  "wiki": "Axiome"
+ },
+ {
+  "id": "demonstration",
+  "term": "Démonstration",
+  "def": "Enchaînement de déductions qui établit, à partir d'axiomes et de règles logiques explicites, qu'un énoncé est nécessairement vrai dans ce cadre. C'est la seule forme de preuve qui ne dépend d'aucune observation.",
+  "wiki": "Démonstration_(logique_et_mathématiques)"
+ },
+ {
+  "id": "theoreme",
+  "term": "Théorème",
+  "def": "Énoncé mathématique démontré. Sa vérité est conditionnelle : « si les axiomes sont admis, alors… ».",
+  "wiki": "Théorème"
+ },
+ {
+  "id": "verification-formelle",
+  "term": "Vérification formelle",
+  "def": "Contrôle d'une démonstration par un logiciel (Coq/Rocq, Lean, Isabelle…) qui en vérifie chaque étape. Le doute ne disparaît pas : il se concentre sur un petit noyau logiciel, lui-même très étudié.",
+  "wiki": "en:Formal_verification"
+ },
+ {
+  "id": "induction",
+  "term": "Induction",
+  "def": "Raisonnement qui généralise à partir de cas observés (« le Soleil s'est toujours levé, donc il se lèvera demain »). Indispensable aux sciences expérimentales, mais jamais logiquement concluant : c'est le « problème de Hume ».",
+  "wiki": "Problème_de_l'induction"
+ },
+ {
+  "id": "deduction",
+  "term": "Déduction",
+  "def": "Raisonnement dont la conclusion découle nécessairement des prémisses. Si les prémisses sont vraies, la conclusion l'est aussi — mais la déduction n'apprend rien que les prémisses ne contenaient déjà.",
+  "wiki": "Raisonnement_déductif"
+ },
+ {
+  "id": "refutabilite",
+  "term": "Réfutabilité",
+  "def": "Critère proposé par Karl Popper : une théorie est scientifique si elle interdit certaines observations, et peut donc être mise en défaut par l'expérience. On dit aussi « falsifiabilité ».",
+  "wiki": "Réfutabilité"
+ },
+ {
+  "id": "duhem-quine",
+  "term": "Thèse de Duhem-Quine",
+  "def": "On ne teste jamais une hypothèse seule, mais toujours un ensemble (théorie + instruments + hypothèses auxiliaires). Quand une prédiction échoue, la logique seule ne dit pas quelle pièce est fautive.",
+  "wiki": "Thèse_de_Duhem-Quine"
+ },
+ {
+  "id": "paradigme",
+  "term": "Paradigme",
+  "def": "Chez Thomas Kuhn, ensemble de théories, méthodes et exemples partagés qui définit ce qu'une communauté scientifique considère comme un problème légitime et une solution acceptable.",
+  "wiki": "Paradigme"
+ },
+ {
+  "id": "hypothese",
+  "term": "Hypothèse",
+  "def": "Proposition provisoire, formulée pour être testée. Une hypothèse n'est pas une « théorie faible » : c'est un rôle dans l'enquête, pas un degré de certitude.",
+  "wiki": "Hypothèse"
+ },
+ {
+  "id": "theorie",
+  "term": "Théorie scientifique",
+  "def": "Cadre explicatif cohérent, qui unifie de nombreux faits et fait des prédictions testables. Au sens scientifique, « théorie » désigne souvent ce qu'il y a de plus solide (théorie de l'évolution, théorie atomique), pas une simple conjecture.",
+  "wiki": "Théorie_scientifique"
+ },
+ {
+  "id": "loi",
+  "term": "Loi",
+  "def": "Régularité, souvent mathématique, qui décrit comment un phénomène se comporte (loi de la gravitation, loi des gaz parfaits). Une loi décrit ; une théorie explique.",
+  "wiki": "en:Scientific_law"
+ },
+ {
+  "id": "modele",
+  "term": "Modèle",
+  "def": "Représentation simplifiée d'un système, utilisée pour calculer et prédire. Un modèle est toujours faux dans le détail et utile dans un domaine donné.",
+  "wiki": "Modèle_scientifique"
+ },
+ {
+  "id": "fait",
+  "term": "Fait (scientifique)",
+  "def": "Selon la formule de S. J. Gould, énoncé « confirmé à un degré tel qu'il serait pervers de lui refuser un assentiment provisoire ». Un fait peut être précisé, rarement renversé."
+ },
+ {
+  "id": "consilience",
+  "term": "Consilience",
+  "def": "Convergence de preuves indépendantes — issues de méthodes, disciplines et instruments différents — vers une même conclusion. C'est la source principale de la solidité des faits établis.",
+  "wiki": "en:Consilience"
+ },
+ {
+  "id": "domaine-validite",
+  "term": "Domaine de validité",
+  "def": "Ensemble des conditions (vitesses, échelles, énergies…) dans lesquelles une théorie a été testée et fonctionne. La mécanique de Newton n'est pas « fausse » : son domaine de validité est connu."
+ },
+ {
+  "id": "correspondance",
+  "term": "Principe de correspondance",
+  "def": "Une théorie nouvelle doit retrouver les prédictions de l'ancienne là où celle-ci fonctionnait. C'est ce qui rend le savoir scientifique cumulatif malgré les révolutions.",
+  "wiki": "Principe_de_correspondance"
+ },
+ {
+  "id": "incertitude",
+  "term": "Incertitude de mesure",
+  "def": "Intervalle qui quantifie ce qu'on ne sait pas d'une mesure. Écrire 4,54 ± 0,05 milliards d'années, c'est affirmer quelque chose de précis — y compris sur ses propres limites.",
+  "wiki": "Incertitude_de_mesure"
+ },
+ {
+  "id": "sigma",
+  "term": "Sigma (σ)",
+  "def": "Écart-type ; en physique, le nombre de sigmas mesure à quel point un signal dépasse ce que le hasard seul produirait. 5 σ correspond à environ 1 chance sur 3,5 millions qu'une fluctuation aléatoire fasse aussi bien.",
+  "wiki": "Écart_type"
+ },
+ {
+  "id": "valeur-p",
+  "term": "Valeur p",
+  "def": "Probabilité d'observer un résultat au moins aussi extrême si l'effet cherché n'existait pas. Ce n'est pas la probabilité que l'hypothèse soit fausse — confusion extrêmement répandue.",
+  "wiki": "Valeur_p"
+ },
+ {
+  "id": "faux-positif",
+  "term": "Faux positif",
+  "def": "Résultat qui semble montrer un effet alors qu'il n'y en a pas. Leur proportion augmente avec les petits échantillons, les effets faibles et la multiplication des tests.",
+  "wiki": "en:False_positives_and_false_negatives"
+ },
+ {
+  "id": "p-hacking",
+  "term": "P-hacking",
+  "def": "Ensemble de pratiques (tester de nombreuses variantes, arrêter la collecte au bon moment, exclure des données) qui font franchir artificiellement le seuil de significativité.",
+  "wiki": "en:Data_dredging"
+ },
+ {
+  "id": "biais-publication",
+  "term": "Biais de publication",
+  "def": "Tendance à publier les résultats positifs et à laisser « dans le tiroir » les résultats nuls, ce qui déforme l'image d'ensemble d'un domaine.",
+  "wiki": "Biais_de_publication"
+ },
+ {
+  "id": "biais-confirmation",
+  "term": "Biais de confirmation",
+  "def": "Tendance à remarquer, rechercher et retenir ce qui confirme ce qu'on croit déjà. Les protocoles en aveugle existent pour le neutraliser.",
+  "wiki": "Biais_de_confirmation"
+ },
+ {
+  "id": "replication",
+  "term": "Réplication",
+  "def": "Refaire une étude, avec de nouvelles données, pour voir si le résultat tient. Distincte de la reproductibilité au sens strict (refaire les calculs sur les mêmes données).",
+  "wiki": "Reproductibilité"
+ },
+ {
+  "id": "meta-analyse",
+  "term": "Méta-analyse",
+  "def": "Synthèse statistique de toutes les études disponibles sur une question. Puissante — mais vulnérable si les études publiées sont elles-mêmes biaisées.",
+  "wiki": "Méta-analyse"
+ },
+ {
+  "id": "rapport-enregistre",
+  "term": "Rapport enregistré",
+  "def": "Format de publication où la revue accepte l'article sur la base du protocole, avant la collecte des données, et s'engage à le publier quel que soit le résultat.",
+  "wiki": "en:Preregistration_(science)"
+ },
+ {
+  "id": "evaluation-pairs",
+  "term": "Évaluation par les pairs",
+  "def": "Relecture critique d'un article par des spécialistes avant publication. Filtre utile, mais qui ne refait pas les expériences et détecte mal les fraudes.",
+  "wiki": "Évaluation_par_les_pairs"
+ },
+ {
+  "id": "retractation",
+  "term": "Rétractation",
+  "def": "Retrait officiel d'un article publié, pour erreur grave ou fraude. Signe que le système de correction fonctionne — avec souvent des années de retard.",
+  "wiki": "en:Retraction_in_academic_publishing"
+ },
+ {
+  "id": "science-pathologique",
+  "term": "Science pathologique",
+  "def": "Expression d'Irving Langmuir (1953) : des chercheurs sincères qui se persuadent d'un effet à la limite du détectable, que personne ne parvient à reproduire proprement (rayons N, polywater…).",
+  "wiki": "Science_pathologique"
+ },
+ {
+  "id": "consensus",
+  "term": "Consensus scientifique",
+  "def": "Accord de la grande majorité des spécialistes d'un domaine, fondé sur l'état des preuves. Ce n'est pas un vote : c'est la trace sociale d'une consilience.",
+  "wiki": "Consensus_scientifique"
+ },
+ {
+  "id": "cromwell",
+  "term": "Règle de Cromwell",
+  "def": "Principe bayésien (D. Lindley) : ne jamais attribuer une probabilité de 0 ou de 1 à un énoncé empirique, car aucune preuve ne pourrait alors plus la modifier.",
+  "wiki": "en:Cromwell's_rule"
+ },
+ {
+  "id": "constante-definie",
+  "term": "Constante de définition",
+  "def": "Depuis 2019, sept constantes (vitesse de la lumière, constante de Planck, charge élémentaire…) ont une valeur numérique exacte fixée par convention : ce sont elles qui définissent les unités du SI.",
+  "wiki": "Système_international_d'unités"
+ },
+ {
+  "id": "confiance-giec",
+  "term": "Langage calibré (GIEC)",
+  "def": "Vocabulaire normalisé qui associe des mots à des probabilités : « pratiquement certain » = 99-100 %, « très probable » = 90-100 %, « probable » = 66-100 %, etc.",
+  "wiki": "Groupe_d'experts_intergouvernemental_sur_l'évolution_du_climat"
+ },
+ {
+  "id": "luca",
+  "term": "LUCA",
+  "def": "Last Universal Common Ancestor, dernier ancêtre commun universel : la population d'organismes dont descendent toutes les lignées cellulaires actuelles. Ce n'est pas le premier être vivant.",
+  "wiki": "Dernier_ancêtre_commun_universel"
+ },
+ {
+  "id": "autopoiese",
+  "term": "Autopoïèse",
+  "def": "Concept de Maturana et Varela : un système vivant est un réseau de processus qui produit en permanence ses propres composants et sa propre frontière.",
+  "wiki": "Autopoïèse"
+ },
+ {
+  "id": "probleme-difficile",
+  "term": "Problème difficile de la conscience",
+  "def": "Formulé par David Chalmers (1995) : pourquoi des processus physiques s'accompagnent-ils d'une expérience vécue, et pas seulement d'un traitement d'information ?",
+  "wiki": "Problème_difficile_de_la_conscience"
+ }
+]

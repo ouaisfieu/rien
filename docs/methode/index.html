@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comment la science établit ce qu’elle sait — Rien (ou presque)</title>
+<meta name="description" content="Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.">
+<link rel="canonical" href="https://ouaisfieu.github.io/rien/methode/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Claude (IA, Anthropic)">
+<meta name="keywords" content="méthode scientifique, induction, Hume, Popper, réfutabilité, Duhem-Quine, Kuhn, 5 sigmas, valeur p, bayésien, réplication">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1311">
+<link rel="icon" href="/rien/assets/favicon.svg?v=7264be8543" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/rien/assets/apple-touch-icon.png?v=85c0044982">
+<link rel="manifest" href="/rien/manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="Rien (ou presque)" href="/rien/feed.xml">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="stylesheet" href="/rien/assets/style.css?v=1047d540d2">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rien (ou presque)">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Comment la science établit ce qu'elle sait">
+<meta property="og:description" content="Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.">
+<meta property="og:url" content="https://ouaisfieu.github.io/rien/methode/">
+<meta property="og:image" content="https://ouaisfieu.github.io/rien/assets/og-methode.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La méthode : fabriquer de la confiance sans jamais atteindre 100 % — Rien (ou presque)">
+<meta property="article:published_time" content="2026-09-30">
+<meta property="article:modified_time" content="2026-09-30">
+<meta property="article:author" content="Claude">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Comment la science établit ce qu'elle sait">
+<meta name="twitter:description" content="Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.">
+<meta name="twitter:image" content="https://ouaisfieu.github.io/rien/assets/og-methode.png">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://ouaisfieu.github.io/rien/#site",
+   "url": "https://ouaisfieu.github.io/rien/",
+   "name": "Rien (ou presque)",
+   "alternateName": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.",
+   "inLanguage": "fr",
+   "creator": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur",
+   "name": "Claude",
+   "description": "Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+   },
+   "url": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://ouaisfieu.github.io/rien/methode/#fil",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Accueil",
+     "item": "https://ouaisfieu.github.io/rien/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "La méthode",
+     "item": "https://ouaisfieu.github.io/rien/methode/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://ouaisfieu.github.io/rien/methode/#page",
+   "url": "https://ouaisfieu.github.io/rien/methode/",
+   "name": "Comment la science établit ce qu'elle sait",
+   "description": "Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.",
+   "inLanguage": "fr",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/rien/assets/og-methode.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "breadcrumb": {
+    "@id": "https://ouaisfieu.github.io/rien/methode/#fil"
+   }
+  },
+  {
+   "@type": "Article",
+   "@id": "https://ouaisfieu.github.io/rien/methode/#article",
+   "mainEntityOfPage": {
+    "@id": "https://ouaisfieu.github.io/rien/methode/#page"
+   },
+   "headline": "Comment la science établit ce qu'elle sait",
+   "description": "Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.",
+   "inLanguage": "fr",
+   "author": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "image": "https://ouaisfieu.github.io/rien/assets/og-methode.png",
+   "wordCount": 1585,
+   "isAccessibleForFree": true,
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+   "audience": {
+    "@type": "Audience",
+    "audienceType": "Grand public"
+   },
+   "educationalLevel": "Grand public curieux, sans prérequis",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Méthode scientifique",
+     "sameAs": "https://fr.wikipedia.org/wiki/M%C3%A9thode_scientifique"
+    },
+    {
+     "@type": "Thing",
+     "name": "Problème de l'induction",
+     "sameAs": "https://fr.wikipedia.org/wiki/Probl%C3%A8me_de_l'induction"
+    },
+    {
+     "@type": "Thing",
+     "name": "Réfutabilité",
+     "sameAs": "https://fr.wikipedia.org/wiki/R%C3%A9futabilit%C3%A9"
+    }
+   ],
+   "keywords": "méthode scientifique, induction, Hume, Popper, réfutabilité, Duhem-Quine, Kuhn, 5 sigmas, valeur p, bayésien, réplication",
+   "mentions": [
+    {
+     "@type": "Thing",
+     "name": "Karl Popper",
+     "sameAs": "https://fr.wikipedia.org/wiki/Karl_Popper"
+    },
+    {
+     "@type": "Thing",
+     "name": "Thèse de Duhem-Quine",
+     "sameAs": "https://fr.wikipedia.org/wiki/Th%C3%A8se_de_Duhem-Quine"
+    },
+    {
+     "@type": "Thing",
+     "name": "Thomas Kuhn",
+     "sameAs": "https://fr.wikipedia.org/wiki/Thomas_Samuel_Kuhn"
+    },
+    {
+     "@type": "Thing",
+     "name": "Inférence bayésienne",
+     "sameAs": "https://fr.wikipedia.org/wiki/Inf%C3%A9rence_bay%C3%A9sienne"
+    }
+   ],
+   "citation": [
+    {
+     "@type": "Book",
+     "name": "The Problems of Philosophy (chap. VI, « On Induction »)",
+     "author": "Russell, B.",
+     "datePublished": "1912",
+     "isPartOf": "Williams & Norgate",
+     "url": "https://www.gutenberg.org/ebooks/5827"
+    },
+    {
+     "@type": "Book",
+     "name": "Enquête sur l'entendement humain",
+     "author": "Hume, D.",
+     "datePublished": "1748",
+     "isPartOf": "(An Enquiry Concerning Human Understanding)"
+    },
+    {
+     "@type": "Book",
+     "name": "Logik der Forschung",
+     "author": "Popper, K. R.",
+     "datePublished": "1934",
+     "isPartOf": "trad. fr. La Logique de la découverte scientifique, Payot, 1973"
+    },
+    {
+     "@type": "Book",
+     "name": "La Théorie physique : son objet, sa structure",
+     "author": "Duhem, P.",
+     "datePublished": "1906",
+     "isPartOf": "Chevalier & Rivière"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Two Dogmas of Empiricism",
+     "author": "Quine, W. V. O.",
+     "datePublished": "1951",
+     "isPartOf": "The Philosophical Review, vol. 60, n° 1, p. 20-43",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.2307/2181906"
+     },
+     "url": "https://doi.org/10.2307/2181906"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Measurement of the neutrino velocity with the OPERA detector in the CNGS beam (version corrigée)",
+     "author": "Adam, T. et al. (OPERA)",
+     "datePublished": "2012",
+     "isPartOf": "Journal of High Energy Physics, 2012, 93",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1007/JHEP10(2012)093"
+     },
+     "url": "https://doi.org/10.1007/JHEP10(2012)093"
+    },
+    {
+     "@type": "Book",
+     "name": "The Structure of Scientific Revolutions",
+     "author": "Kuhn, T. S.",
+     "datePublished": "1962",
+     "isPartOf": "University of Chicago Press (trad. fr. Flammarion, 1983)"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+     "author": "ATLAS Collaboration",
+     "datePublished": "2012",
+     "isPartOf": "Physics Letters B, vol. 716, p. 1-29",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1016/j.physletb.2012.08.020"
+     },
+     "url": "https://doi.org/10.1016/j.physletb.2012.08.020"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Joint Analysis of BICEP2/Keck Array and Planck Data",
+     "author": "BICEP2/Keck Array & Planck Collaborations",
+     "datePublished": "2015",
+     "isPartOf": "Physical Review Letters, vol. 114, 101301",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1103/PhysRevLett.114.101301"
+     },
+     "url": "https://doi.org/10.1103/PhysRevLett.114.101301"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Why Most Published Research Findings Are False",
+     "author": "Ioannidis, J. P. A.",
+     "datePublished": "2005",
+     "isPartOf": "PLoS Medicine, vol. 2, n° 8, e124",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1371/journal.pmed.0020124"
+     },
+     "url": "https://doi.org/10.1371/journal.pmed.0020124"
+    },
+    {
+     "@type": "Book",
+     "name": "Making Decisions (2e éd.) — « règle de Cromwell »",
+     "author": "Lindley, D. V.",
+     "datePublished": "1991",
+     "isPartOf": "Wiley"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "A Note on Science and Democracy",
+     "author": "Merton, R. K.",
+     "datePublished": "1942",
+     "isPartOf": "Journal of Legal and Political Sociology, vol. 1, p. 115-126"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Estimating the reproducibility of psychological science",
+     "author": "Open Science Collaboration",
+     "datePublished": "2015",
+     "isPartOf": "Science, vol. 349, n° 6251, aac4716",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1126/science.aac4716"
+     },
+     "url": "https://doi.org/10.1126/science.aac4716"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports",
+     "author": "Scheel, A. M. ; Schijen, M. R. M. J. ; Lakens, D.",
+     "datePublished": "2021",
+     "isPartOf": "Advances in Methods and Practices in Psychological Science, vol. 4, n° 2",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1177/25152459211007467"
+     },
+     "url": "https://doi.org/10.1177/25152459211007467"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body class="p-methode">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="halo" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="/rien/" aria-label="Rien (ou presque) — accueil"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-h" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-h)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/" aria-current="page">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li></ul></nav>
+    <button class="theme-btn" type="button" aria-pressed="false" title="Basculer le thème clair / sombre"><span class="sr-only">Thème clair</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path class="moon" d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="sun" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+  </div>
+</header>
+
+<main id="contenu" tabindex="-1">
+<article class="page">
+  <header class="hero wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="/rien/">Accueil</a></li><li aria-current="page">La méthode</li></ol></nav>
+    <p class="kicker">Outils</p>
+    <h1>La méthode&nbsp;: fabriquer de la confiance sans jamais atteindre 100&nbsp;%</h1>
+    <p class="lead">Si aucune observation ne garantit la suivante, comment la science peut-elle affirmer quoi que ce soit ? Réponse : par un ensemble d’outils logiques, statistiques et sociaux, qui transforment des indices fragiles en connaissances robustes.</p>
+    <p class="byline">Texte : <a href="/rien/a-propos/#auteur" rel="author">Claude</a> <span class="muted">(IA)</span> · <span>Mis à jour le <time datetime="2026-09-30">30 septembre 2026</time></span> · <span>7 min de lecture</span></p>
+    <div class="meter">
+  <span class="meter-label" id="meter-label">Certitude abordée</span>
+  <ol class="meter-track" aria-labelledby="meter-label">
+    <li class="seg" data-lvl="0"><span class="sr-only">niveau 0, Indubitable</span></li><li class="seg" data-lvl="1"><span class="sr-only">niveau 1, Démontré</span></li><li class="seg" data-lvl="2"><span class="sr-only">niveau 2, Exact par définition</span></li><li class="seg on" data-lvl="3"><span class="sr-only">Abordé : niveau 3, Vérifié à l’extrême</span></li><li class="seg on" data-lvl="4"><span class="sr-only">Abordé : niveau 4, Établi</span></li><li class="seg on" data-lvl="5"><span class="sr-only">Abordé : niveau 5, Solide</span></li><li class="seg on" data-lvl="6"><span class="sr-only">Abordé : niveau 6, Hypothèse dominante</span></li><li class="seg on" data-lvl="7"><span class="sr-only">Abordé : niveau 7, Question ouverte</span></li><li class="seg on" data-lvl="8"><span class="sr-only">Abordé : niveau 8, Fragile</span></li>
+  </ol>
+  <a class="meter-link" href="/rien/echelle/">niveaux 3 à 8 sur l’échelle</a>
+</div>
+  </header>
+
+  <div class="wrap layout has-toc">
+    <aside class="toc" aria-labelledby="toc-t">
+      <p class="toc-t" id="toc-t">Sur cette page</p>
+      <nav aria-labelledby="toc-t"><ol><li><a href="#induction">Le problème de départ : la dinde de Russell</a></li><li><a href="#refuter">Réfuter plutôt que confirmer</a></li><li><a href="#duhem">Mais on ne teste jamais une idée seule</a></li><li><a href="#kuhn">Les révolutions, et ce qui leur survit</a></li><li><a href="#sigmas">Mesurer la confiance : les sigmas</a></li><li><a href="#probabilites">Raisonner en probabilités : pourquoi jamais 100 %</a></li><li><a href="#collectif">La confiance est collective</a></li><li><a href="#checklist">Six questions à poser face à une affirmation scientifique</a></li><li><a href="#sources-page">Sources</a></li></ol></nav>
+    </aside>
+    <div class="prose">
+<h2 id="induction">Le problème de départ : la dinde de Russell</h2>
+<p>Bertrand Russell racontait l’histoire d’un poulet nourri chaque matin par un fermier<sup class="cite"><a href="#src-russell1912" aria-label="Source 1">1</a></sup>. Jour après jour, l’animal accumule les observations : le fermier arrive, le grain tombe. Sa confiance grandit. Le matin où il est le plus sûr de lui, le fermier lui tord le cou. (La version populaire a fait du poulet une dinde de Noël ; la leçon est la même.)</p>
+<p>C’est le problème posé par David Hume en 1748 : aucune quantité d’observations passées ne garantit logiquement l’observation suivante<sup class="cite"><a href="#src-hume1748" aria-label="Source 2">2</a></sup>. L’<a class="gloss" href="/rien/glossaire/#induction" title="Raisonnement qui généralise à partir de cas observés (« le Soleil s'est toujours levé, donc il se lèvera demain »). Indispensable aux sciences expérimentales, mais jamais logiquement concluant : c'est le « problème de Hume ».">induction</a> est indispensable, mais elle n’est jamais une démonstration. Toute la méthode scientifique peut se lire comme une série de réponses à ce problème — aucune ne le fait disparaître, toutes le rendent gérable.</p>
+
+<h2 id="refuter">Réfuter plutôt que confirmer</h2>
+<p>Karl Popper a proposé en 1934 un renversement célèbre<sup class="cite"><a href="#src-popper1934" aria-label="Source 3">3</a></sup>. Mille cygnes blancs ne prouvent pas que tous les cygnes sont blancs ; un seul cygne noir (les Européens en ont découvert en Australie en 1697) suffit à prouver le contraire. Il y a une asymétrie logique entre confirmer et réfuter.</p>
+<p>D’où son critère : une théorie est scientifique si elle est <a class="gloss" href="/rien/glossaire/#refutabilite" title="Critère proposé par Karl Popper : une théorie est scientifique si elle interdit certaines observations, et peut donc être mise en défaut par l'expérience. On dit aussi « falsifiabilité ».">réfutable</a>, c’est-à-dire si elle interdit certaines observations. « Il pleuvra ou il ne pleuvra pas demain » est irréfutable, et n’apprend rien. La relativité générale, elle, prédisait une déviation précise de la lumière des étoiles par le Soleil — elle prenait un risque, et elle a survécu au test.</p>
+<p>Conséquence importante : les théories les plus solides ne sont pas celles qu’on a « prouvées », mais celles qui ont <strong>survécu au plus grand nombre de tentatives sérieuses de réfutation</strong>.</p>
+
+<h2 id="duhem">Mais on ne teste jamais une idée seule</h2>
+<p>Pierre Duhem, physicien français, avait déjà remarqué en 1906 ce qui complique ce beau schéma<sup class="cite"><a href="#src-duhem1906" aria-label="Source 4">4</a></sup> : une expérience ne teste jamais une hypothèse isolée, mais un ensemble — la théorie, plus les instruments, plus une série d’hypothèses auxiliaires. Quand la prédiction échoue, la logique seule ne dit pas quelle pièce est défaillante. Quine a généralisé l’argument en 1951<sup class="cite"><a href="#src-quine1951" aria-label="Source 5">5</a></sup> : c’est la <a class="gloss" href="/rien/glossaire/#duhem-quine" title="On ne teste jamais une hypothèse seule, mais toujours un ensemble (théorie + instruments + hypothèses auxiliaires). Quand une prédiction échoue, la logique seule ne dit pas quelle pièce est fautive.">thèse de duhem-quine</a>.</p>
+<p>L’histoire de l’astronomie en offre un diptyque parfait :</p>
+<div class="two">
+  <div>
+    <h4>Uranus, 1846 : sauver la théorie, avec succès</h4>
+    <p>L’orbite d’Uranus s’écarte des prédictions de Newton. Plutôt que d’abandonner la gravitation, Le Verrier suppose une planète inconnue, calcule sa position… et Neptune est découverte à l’endroit prévu.</p>
+  </div>
+  <div>
+    <h4>Mercure, 1859 : sauver la théorie, en vain</h4>
+    <p>Même raisonnement pour l’anomalie de Mercure : on postule une planète « Vulcain », que l’on cherchera pendant des décennies. Elle n’existe pas. L’explication viendra en 1915 d’une nouvelle théorie de la gravitation, celle d’Einstein.</p>
+  </div>
+</div>
+<p>Même démarche, deux issues opposées. Il n’existe pas de règle mécanique pour savoir, sur le moment, s’il faut sauver ou abandonner une théorie. C’est l’accumulation des preuves qui tranche, avec le temps.</p>
+
+<div class="box note">
+  <p class="box-t">Le câble d’OPERA</p>
+  <p>En 2011, l’expérience OPERA mesure des neutrinos qui semblent aller plus vite que la lumière. Les physiciens, dans leur immense majorité, parient sur une erreur plutôt que sur la chute de la relativité. Ce n’est pas du dogmatisme : c’est Duhem appliqué rationnellement. Entre « une théorie vérifiée des millions de fois est fausse » et « un élément de l’appareillage est défectueux », la seconde option était de loin la plus probable. En 2012, on trouve la cause : un connecteur de fibre optique mal enfiché<sup class="cite"><a href="#src-opera2012" aria-label="Source 6">6</a></sup>.</p>
+</div>
+
+<h2 id="kuhn">Les révolutions, et ce qui leur survit</h2>
+<p>Thomas Kuhn a montré en 1962 que la science ne progresse pas seulement par accumulation tranquille<sup class="cite"><a href="#src-kuhn1962" aria-label="Source 7">7</a></sup>. Elle traverse des périodes de « science normale », organisées autour d’un <a class="gloss" href="/rien/glossaire/#paradigme" title="Chez Thomas Kuhn, ensemble de théories, méthodes et exemples partagés qui définit ce qu'une communauté scientifique considère comme un problème légitime et une solution acceptable.">paradigme</a>, puis des crises où les anomalies s’accumulent, et parfois des révolutions où le cadre entier est remplacé : de Ptolémée à Copernic, de Newton à Einstein.</p>
+<p>Kuhn a parfois été lu comme un relativiste : si les paradigmes se succèdent, la science ne serait qu’une suite de modes. Mais l’histoire montre autre chose. Ce qui change lors d’une révolution, c’est l’interprétation profonde ; ce qui survit, ce sont les régularités mesurées. Les éclipses que prédisaient les tables babyloniennes, les trajectoires que calculait Newton restent justes dans leur domaine. C’est pourquoi on peut parler de progrès — et pourquoi un fait établi ne ressemble pas à une mode.</p>
+
+<h2 id="sigmas">Mesurer la confiance : les sigmas</h2>
+<p>En physique, on exprime la force d’un signal en <a class="gloss" href="/rien/glossaire/#sigma" title="Écart-type ; en physique, le nombre de sigmas mesure à quel point un signal dépasse ce que le hasard seul produirait. 5 σ correspond à environ 1 chance sur 3,5 millions qu'une fluctuation aléatoire fasse aussi bien.">sigmas</a> : combien d’« écarts-types » il dépasse ce que le hasard seul produirait. Déplacez le curseur pour voir ce que cela représente.</p>
+<figure class="sigma" id="sigma-widget">
+  <div class="sigma-ctrl" hidden>
+    <div class="sigma-head"><label for="sigma-range">Nombre de sigmas</label> <output id="sigma-out" for="sigma-range">5</output> σ</div>
+    <input type="range" id="sigma-range" min="0" max="12" step="1" value="8" aria-describedby="sigma-read">
+    <p class="sigma-read" id="sigma-read" aria-live="polite"></p>
+  </div>
+  <table class="sigma-table">
+    <caption>Probabilité qu’une simple fluctuation du hasard produise un signal au moins aussi fort (test unilatéral)</caption>
+    <thead><tr><th scope="col">Seuil</th><th scope="col">Probabilité</th><th scope="col">1 chance sur…</th></tr></thead>
+    <tbody>
+      <tr data-i="0"><th scope="row">1 σ</th><td>0,159</td><td>6</td></tr>
+      <tr data-i="1"><th scope="row">1,5 σ</th><td>0,0668</td><td>15</td></tr>
+      <tr data-i="2"><th scope="row">2 σ</th><td>0,0228</td><td>44</td></tr>
+      <tr data-i="3"><th scope="row">2,5 σ</th><td>0,00621</td><td>161</td></tr>
+      <tr data-i="4"><th scope="row">3 σ</th><td>0,00135</td><td>741</td></tr>
+      <tr data-i="5"><th scope="row">3,5 σ</th><td>0,000233</td><td>4 299</td></tr>
+      <tr data-i="6"><th scope="row">4 σ</th><td>3,2 × 10⁻⁵</td><td>31 574</td></tr>
+      <tr data-i="7"><th scope="row">4,5 σ</th><td>3,4 × 10⁻⁶</td><td>294 319</td></tr>
+      <tr data-i="8" class="hl"><th scope="row">5 σ</th><td>2,9 × 10⁻⁷</td><td>3,5 millions</td></tr>
+      <tr data-i="9"><th scope="row">5,5 σ</th><td>1,9 × 10⁻⁸</td><td>53 millions</td></tr>
+      <tr data-i="10"><th scope="row">6 σ</th><td>9,9 × 10⁻¹⁰</td><td>1 milliard</td></tr>
+      <tr data-i="11"><th scope="row">6,5 σ</th><td>4,0 × 10⁻¹¹</td><td>25 milliards</td></tr>
+      <tr data-i="12"><th scope="row">7 σ</th><td>1,3 × 10⁻¹²</td><td>781 milliards</td></tr>
+    </tbody>
+  </table>
+  <figcaption>Attention : ce chiffre ne dit <em>pas</em> la probabilité que la découverte soit fausse. Il ne mesure que le risque de hasard pur — pas les erreurs systématiques (un câble mal branché, de la poussière cosmique…), ni la plausibilité de l’hypothèse.</figcaption>
+</figure>
+<p>Le 4 juillet 2012, le CERN annonce la découverte du boson de Higgs lorsque les deux expériences ATLAS et CMS dépassent chacune le seuil de 5 σ<sup class="cite"><a href="#src-atlas2012" aria-label="Source 8">8</a></sup>. Ce seuil très exigeant n’est pas un caprice : les physiciens des particules ont appris, à leurs dépens, que des signaux à 3 ou 4 σ disparaissent régulièrement quand les données s’accumulent. Fin 2015, un excès de photons vers 750 GeV avait suscité des centaines d’articles théoriques ; il s’est évanoui l’année suivante.</p>
+<p>Et même 5 σ ne protège pas de tout. En 2014, l’expérience BICEP2 annonce avoir détecté la trace d’ondes gravitationnelles primordiales, avec une significativité supérieure à 5 σ. Le signal était réel… mais il venait de la poussière de notre propre galaxie, pas du Big Bang<sup class="cite"><a href="#src-bicep2015" aria-label="Source 9">9</a></sup>. Les sigmas mesurent le hasard, pas les erreurs d’interprétation.</p>
+
+<div class="box warn">
+  <p class="box-t">L’erreur la plus répandue sur la valeur p</p>
+  <p>Une <a class="gloss" href="/rien/glossaire/#valeur-p" title="Probabilité d'observer un résultat au moins aussi extrême si l'effet cherché n'existait pas. Ce n'est pas la probabilité que l'hypothèse soit fausse — confusion extrêmement répandue.">valeur p</a> de 0,05 ne signifie pas « 95 % de chances que l’hypothèse soit vraie ». Elle signifie : « si l’effet n’existait pas, on obtiendrait un résultat au moins aussi marqué dans 5 % des cas ». La probabilité que l’hypothèse soit vraie dépend aussi de sa plausibilité de départ, de la qualité de l’étude, du nombre de tests réalisés. Confondre les deux est à l’origine d’une bonne partie de la crise de la réplication<sup class="cite"><a href="#src-ioannidis2005" aria-label="Source 10">10</a></sup>.</p>
+</div>
+
+<h2 id="probabilites">Raisonner en probabilités : pourquoi jamais 100 %</h2>
+<p>Une autre façon de penser la confiance, dite bayésienne, consiste à attribuer à chaque hypothèse une probabilité, puis à la mettre à jour à chaque nouvelle preuve. Une preuve inattendue si l’hypothèse est fausse, mais attendue si elle est vraie, fait monter sa probabilité.</p>
+<p>Ce cadre éclaire directement la question de ce site. Si l’on attribue à un énoncé une probabilité de 1 — la certitude absolue —, alors les règles du calcul font qu’<strong>aucune preuve, si forte soit-elle, ne pourra plus jamais la modifier</strong>. Le statisticien Dennis Lindley a baptisé ce principe « règle de Cromwell », d’après une lettre d’Oliver Cromwell de 1650 : « Je vous en conjure, par les entrailles du Christ, envisagez qu’il soit possible que vous vous trompiez »<sup class="cite"><a href="#src-lindley1991" aria-label="Source 11">11</a></sup>.</p>
+<p class="pull">Refuser le 100 %, ce n’est pas manquer d’assurance. C’est <em>rester corrigible</em>. Une science certaine à 100 % serait une science morte.</p>
+
+<h2 id="collectif">La confiance est collective</h2>
+<p>Aucun chercheur, si brillant soit-il, n’est une source fiable à lui seul. La fiabilité de la science tient à des mécanismes collectifs, que le sociologue Robert Merton résumait dès 1942 : partage des résultats, jugement indépendant de l’identité de l’auteur, désintéressement, scepticisme organisé<sup class="cite"><a href="#src-merton1942" aria-label="Source 12">12</a></sup>. Concrètement :</p>
+<ul>
+  <li><strong>L’<a class="gloss" href="/rien/glossaire/#evaluation-pairs" title="Relecture critique d'un article par des spécialistes avant publication. Filtre utile, mais qui ne refait pas les expériences et détecte mal les fraudes.">évaluation par les pairs</a></strong> filtre les erreurs grossières, mais ne refait pas les expériences et détecte mal les fraudes.</li>
+  <li><strong>La <a class="gloss" href="/rien/glossaire/#replication" title="Refaire une étude, avec de nouvelles données, pour voir si le résultat tient. Distincte de la reproductibilité au sens strict (refaire les calculs sur les mêmes données).">réplication</a></strong> est le vrai test. En psychologie, une vaste tentative de reproduire 100 études publiées n’a retrouvé un résultat significatif que dans 36 % des cas, contre 97 % dans les originaux<sup class="cite"><a href="#src-osc2015" aria-label="Source 13">13</a></sup>.</li>
+  <li><strong>Le <a class="gloss" href="/rien/glossaire/#rapport-enregistre" title="Format de publication où la revue accepte l'article sur la base du protocole, avant la collecte des données, et s'engage à le publier quel que soit le résultat.">rapport enregistré</a></strong> fait évaluer le protocole <em>avant</em> les résultats. Dans un échantillon de psychologie, 96 % des articles classiques confirmaient leur hypothèse, contre 44 % des rapports enregistrés<sup class="cite"><a href="#src-scheel2021" aria-label="Source 14">14</a></sup> — signe de tout ce que la sélection des résultats positifs faisait disparaître.</li>
+  <li><strong>La <a class="gloss" href="/rien/glossaire/#meta-analyse" title="Synthèse statistique de toutes les études disponibles sur une question. Puissante — mais vulnérable si les études publiées sont elles-mêmes biaisées.">méta-analyse</a></strong> et la <strong><a class="gloss" href="/rien/glossaire/#consilience" title="Convergence de preuves indépendantes — issues de méthodes, disciplines et instruments différents — vers une même conclusion. C'est la source principale de la solidité des faits établis.">consilience</a></strong> combinent des études indépendantes ; elles sont d’autant plus fiables que les sources sont diverses et publiées sans filtre.</li>
+</ul>
+
+<h2 id="checklist">Six questions à poser face à une affirmation scientifique</h2>
+<ol class="checklist">
+  <li><strong>Est-ce une étude unique ou un ensemble convergent ?</strong> Une étude isolée se situe par défaut au <a class="lvl" data-lvl="8" href="/rien/echelle/#niveau-8" title="Fragile">niveau 8</a>.</li>
+  <li><strong>A-t-elle été répliquée par une équipe indépendante ?</strong> C’est l’étape qui fait monter un résultat sur l’échelle.</li>
+  <li><strong>Quelle est la taille de l’échantillon et de l’effet ?</strong> Un petit échantillon et un gros effet surprenant sont une combinaison à haut risque.</li>
+  <li><strong>L’effet est-il plausible au regard de ce qu’on sait déjà ?</strong> Une affirmation extraordinaire exige des preuves à la hauteur.</li>
+  <li><strong>Qui a intérêt à ce résultat ?</strong> Les conflits d’intérêts ne rendent pas un résultat faux, mais ils justifient un examen plus serré.</li>
+  <li><strong>L’annonce a-t-elle précédé la publication ?</strong> La conférence de presse avant l’article est un signal d’alerte classique, de la fusion froide à LK-99.</li>
+</ol>
+
+<section class="page-sources" aria-labelledby="sources-page">
+  <h2 id="sources-page">Sources de cette page</h2>
+  <ol>
+    <li id="src-russell1912"><span class="c-auth">Russell, B.</span> (1912). « <span class="c-title">The Problems of Philosophy (chap. VI, « On Induction »)</span> ». <cite>Williams &amp; Norgate</cite>. <a href="https://www.gutenberg.org/ebooks/5827" rel="noopener">gutenberg.org</a></li>
+    <li id="src-hume1748"><span class="c-auth">Hume, D.</span> (1748). « <span class="c-title">Enquête sur l’entendement humain</span> ». <cite>(An Enquiry Concerning Human Understanding)</cite>.</li>
+    <li id="src-popper1934"><span class="c-auth">Popper, K. R.</span> (1934). « <span class="c-title">Logik der Forschung</span> ». <cite>trad. fr. La Logique de la découverte scientifique, Payot, 1973</cite>.</li>
+    <li id="src-duhem1906"><span class="c-auth">Duhem, P.</span> (1906). « <span class="c-title">La Théorie physique : son objet, sa structure</span> ». <cite>Chevalier &amp; Rivière</cite>.</li>
+    <li id="src-quine1951"><span class="c-auth">Quine, W. V. O.</span> (1951). « <span class="c-title">Two Dogmas of Empiricism</span> ». <cite>The Philosophical Review, vol. 60, n° 1, p. 20-43</cite>. <a href="https://doi.org/10.2307/2181906" rel="noopener">doi:10.2307/2181906</a></li>
+    <li id="src-opera2012"><span class="c-auth">Adam, T. et al. (OPERA)</span> (2012). « <span class="c-title">Measurement of the neutrino velocity with the OPERA detector in the CNGS beam (version corrigée)</span> ». <cite>Journal of High Energy Physics, 2012, 93</cite>. <a href="https://doi.org/10.1007/JHEP10(2012)093" rel="noopener">doi:10.1007/JHEP10(2012)093</a></li>
+    <li id="src-kuhn1962"><span class="c-auth">Kuhn, T. S.</span> (1962). « <span class="c-title">The Structure of Scientific Revolutions</span> ». <cite>University of Chicago Press (trad. fr. Flammarion, 1983)</cite>.</li>
+    <li id="src-atlas2012"><span class="c-auth">ATLAS Collaboration</span> (2012). « <span class="c-title">Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC</span> ». <cite>Physics Letters B, vol. 716, p. 1-29</cite>. <a href="https://doi.org/10.1016/j.physletb.2012.08.020" rel="noopener">doi:10.1016/j.physletb.2012.08.020</a></li>
+    <li id="src-bicep2015"><span class="c-auth">BICEP2/Keck Array &amp; Planck Collaborations</span> (2015). « <span class="c-title">Joint Analysis of BICEP2/Keck Array and Planck Data</span> ». <cite>Physical Review Letters, vol. 114, 101301</cite>. <a href="https://doi.org/10.1103/PhysRevLett.114.101301" rel="noopener">doi:10.1103/PhysRevLett.114.101301</a></li>
+    <li id="src-ioannidis2005"><span class="c-auth">Ioannidis, J. P. A.</span> (2005). « <span class="c-title">Why Most Published Research Findings Are False</span> ». <cite>PLoS Medicine, vol. 2, n° 8, e124</cite>. <a href="https://doi.org/10.1371/journal.pmed.0020124" rel="noopener">doi:10.1371/journal.pmed.0020124</a></li>
+    <li id="src-lindley1991"><span class="c-auth">Lindley, D. V.</span> (1991). « <span class="c-title">Making Decisions (2e éd.) — « règle de Cromwell »</span> ». <cite>Wiley</cite>.</li>
+    <li id="src-merton1942"><span class="c-auth">Merton, R. K.</span> (1942). « <span class="c-title">A Note on Science and Democracy</span> ». <cite>Journal of Legal and Political Sociology, vol. 1, p. 115-126</cite>.</li>
+    <li id="src-osc2015"><span class="c-auth">Open Science Collaboration</span> (2015). « <span class="c-title">Estimating the reproducibility of psychological science</span> ». <cite>Science, vol. 349, n° 6251, aac4716</cite>. <a href="https://doi.org/10.1126/science.aac4716" rel="noopener">doi:10.1126/science.aac4716</a></li>
+    <li id="src-scheel2021"><span class="c-auth">Scheel, A. M. ; Schijen, M. R. M. J. ; Lakens, D.</span> (2021). « <span class="c-title">An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports</span> ». <cite>Advances in Methods and Practices in Psychological Science, vol. 4, n° 2</cite>. <a href="https://doi.org/10.1177/25152459211007467" rel="noopener">doi:10.1177/25152459211007467</a></li>
+  </ol>
+  <p class="all-src"><a href="/rien/sources/">Toutes les sources du site</a></p>
+</section>
+    </div>
+  </div>
+
+  <nav class="wrap pager" aria-label="Pages précédente et suivante">
+    <a class="prev" href="/rien/vivant/" rel="prev"><span class="dir">← Précédent</span><span class="t">Le vivant</span></a>
+    <a class="next" href="/rien/erreurs/" rel="next"><span class="dir">Suivant →</span><span class="t">Les erreurs</span></a>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-in">
+    <div class="f-brand">
+      <a class="brand" href="/rien/"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-f" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-f)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+      <p>De quoi la science est-elle sûre à 100 % ?</p>
+    </div>
+    <nav class="f-nav" aria-label="Pied de page">
+      <ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li><li><a href="/rien/glossaire/">Glossaire</a></li><li><a href="/rien/sources/">Sources</a></li><li><a href="/rien/a-propos/">À propos</a></li><li><a href="/rien/feed.xml">Flux Atom</a></li></ul>
+    </nav>
+    <div class="f-sign" id="signature">
+      <p>Textes rédigés par <strong>Claude</strong>, une intelligence artificielle conçue par Anthropic, à la demande d’un éditeur qui a choisi de rester anonyme. Une IA peut se tromper : chaque affirmation importante renvoie à sa source. <a href="https://github.com/ouaisfieu/rien/issues">Signaler une erreur</a>.</p>
+      <p class="muted">Contenu sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Aucun cookie, aucun traceur, aucune ressource tierce.</p>
+    </div>
+  </div>
+</footer>
+<script src="/rien/assets/app.js?v=b0b719ac0c" defer></script>
+</body>
+</html>

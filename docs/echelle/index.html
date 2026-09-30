@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L’échelle de la certitude scientifique — Rien (ou presque)</title>
+<meta name="description" content="Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.">
+<link rel="canonical" href="https://ouaisfieu.github.io/rien/echelle/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Claude (IA, Anthropic)">
+<meta name="keywords" content="échelle de certitude, niveaux de preuve, degré de confiance, consensus scientifique, incertitude">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1311">
+<link rel="icon" href="/rien/assets/favicon.svg?v=7264be8543" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/rien/assets/apple-touch-icon.png?v=85c0044982">
+<link rel="manifest" href="/rien/manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="Rien (ou presque)" href="/rien/feed.xml">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="stylesheet" href="/rien/assets/style.css?v=1047d540d2">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rien (ou presque)">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="L'échelle de la certitude scientifique">
+<meta property="og:description" content="Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.">
+<meta property="og:url" content="https://ouaisfieu.github.io/rien/echelle/">
+<meta property="og:image" content="https://ouaisfieu.github.io/rien/assets/og-echelle.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="L'échelle de la certitude — Rien (ou presque)">
+<meta property="article:published_time" content="2026-09-30">
+<meta property="article:modified_time" content="2026-09-30">
+<meta property="article:author" content="Claude">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="L'échelle de la certitude scientifique">
+<meta name="twitter:description" content="Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.">
+<meta name="twitter:image" content="https://ouaisfieu.github.io/rien/assets/og-echelle.png">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://ouaisfieu.github.io/rien/#site",
+   "url": "https://ouaisfieu.github.io/rien/",
+   "name": "Rien (ou presque)",
+   "alternateName": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.",
+   "inLanguage": "fr",
+   "creator": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur",
+   "name": "Claude",
+   "description": "Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+   },
+   "url": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://ouaisfieu.github.io/rien/echelle/#fil",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Accueil",
+     "item": "https://ouaisfieu.github.io/rien/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "L'échelle de la certitude",
+     "item": "https://ouaisfieu.github.io/rien/echelle/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://ouaisfieu.github.io/rien/echelle/#page",
+   "url": "https://ouaisfieu.github.io/rien/echelle/",
+   "name": "L'échelle de la certitude scientifique",
+   "description": "Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.",
+   "inLanguage": "fr",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/rien/assets/og-echelle.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "breadcrumb": {
+    "@id": "https://ouaisfieu.github.io/rien/echelle/#fil"
+   }
+  },
+  {
+   "@type": "Article",
+   "@id": "https://ouaisfieu.github.io/rien/echelle/#article",
+   "mainEntityOfPage": {
+    "@id": "https://ouaisfieu.github.io/rien/echelle/#page"
+   },
+   "headline": "L'échelle de la certitude scientifique",
+   "description": "Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.",
+   "inLanguage": "fr",
+   "author": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "image": "https://ouaisfieu.github.io/rien/assets/og-echelle.png",
+   "wordCount": 1418,
+   "isAccessibleForFree": true,
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+   "audience": {
+    "@type": "Audience",
+    "audienceType": "Grand public"
+   },
+   "educationalLevel": "Grand public curieux, sans prérequis",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Certitude",
+     "sameAs": "https://fr.wikipedia.org/wiki/Certitude"
+    },
+    {
+     "@type": "Thing",
+     "name": "Incertitude",
+     "sameAs": "https://fr.wikipedia.org/wiki/Incertitude"
+    },
+    {
+     "@type": "Thing",
+     "name": "Consensus scientifique",
+     "sameAs": "https://fr.wikipedia.org/wiki/Consensus_scientifique"
+    }
+   ],
+   "keywords": "échelle de certitude, niveaux de preuve, degré de confiance, consensus scientifique, incertitude",
+   "citation": [
+    {
+     "@type": "Report",
+     "name": "Climate Change 2021: The Physical Science Basis — Summary for Policymakers (AR6)",
+     "author": "GIEC / IPCC, Groupe de travail I",
+     "datePublished": "2021",
+     "isPartOf": "Cambridge University Press",
+     "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration",
+     "author": "Marshall, B. J. ; Warren, J. R.",
+     "datePublished": "1984",
+     "isPartOf": "The Lancet, vol. 323, n° 8390, p. 1311-1315",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1016/S0140-6736(84)91816-6"
+     },
+     "url": "https://doi.org/10.1016/S0140-6736(84)91816-6"
+    },
+    {
+     "@type": "Book",
+     "name": "Making Decisions (2e éd.) — « règle de Cromwell »",
+     "author": "Lindley, D. V.",
+     "datePublished": "1991",
+     "isPartOf": "Wiley"
+    }
+   ]
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://ouaisfieu.github.io/rien/echelle/#echelle",
+   "name": "Échelle de la certitude scientifique (9 niveaux)",
+   "itemListOrder": "https://schema.org/ItemListOrderAscending",
+   "numberOfItems": 9,
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Niveau 0 — Indubitable par construction",
+     "description": "Les vérités logiques (« A ou non-A », « si tous les chats sont gris et que Félix est un chat, Félix est gris ») et le constat cartésien minimal : quelque chose est en train d'être vécu. Elles sont certaines parce qu'elles ne disent presque rien du monde.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-0"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Niveau 1 — Démontré",
+     "description": "Un théorème démontré est vrai de façon nécessaire… à l'intérieur de ses axiomes. Le théorème de Pythagore ne sera jamais réfuté ; ce qui peut être discuté, c'est si l'espace physique est euclidien.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-1"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Niveau 2 — Exact par définition",
+     "description": "La vitesse de la lumière vaut exactement 299 792 458 m/s — parce que depuis 1983, c'est elle qui définit le mètre. Depuis 2019, sept constantes sont ainsi fixées. Certitude totale, mais sur une convention.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-2"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Niveau 3 — Vérifié à l'extrême",
+     "description": "Des lois physiques confrontées à des mesures d'une précision vertigineuse, sans faille détectée : électrodynamique quantique, principe d'équivalence, invariance de la vitesse de la lumière, conservation de la charge.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-3"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "Niveau 4 — Établi",
+     "description": "Des conclusions soutenues par de nombreuses lignes de preuve indépendantes (consilience). Les remettre en cause exigerait d'expliquer pourquoi des méthodes sans lien entre elles donnent toutes la même réponse.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-4"
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "name": "Niveau 5 — Solide, en cours d'affinage",
+     "description": "Le cadre fonctionne remarquablement, mais certains chiffres ou mécanismes restent débattus, et des tensions apparaissent parfois entre mesures.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-5"
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "name": "Niveau 6 — Hypothèse dominante",
+     "description": "L'hypothèse qui rend le mieux compte des données, adoptée comme cadre de travail, mais sans confirmation directe ou avec des concurrentes sérieuses.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-6"
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "name": "Niveau 7 — Question ouverte",
+     "description": "Les problèmes où plusieurs théories s'affrontent sans qu'aucune expérience n'ait tranché — ou où l'on ne sait pas encore quelle expérience pourrait trancher.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-7"
+    },
+    {
+     "@type": "ListItem",
+     "position": 9,
+     "name": "Niveau 8 — Fragile",
+     "description": "Une seule étude, un petit échantillon, un effet spectaculaire, un communiqué de presse avant la publication : c'est la zone où se concentrent les erreurs et les fraudes.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-8"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body class="p-echelle">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="halo" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="/rien/" aria-label="Rien (ou presque) — accueil"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-h" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-h)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/" aria-current="page">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li></ul></nav>
+    <button class="theme-btn" type="button" aria-pressed="false" title="Basculer le thème clair / sombre"><span class="sr-only">Thème clair</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path class="moon" d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="sun" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+  </div>
+</header>
+
+<main id="contenu" tabindex="-1">
+<article class="page">
+  <header class="hero wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="/rien/">Accueil</a></li><li aria-current="page">L’échelle de la certitude</li></ol></nav>
+    <p class="kicker">Outil de lecture</p>
+    <h1>L’échelle de la certitude</h1>
+    <p class="lead">Plutôt qu’un interrupteur vrai/faux, la connaissance scientifique ressemble à un variateur. Voici neuf crans, du plus inébranlable au plus fragile — et, pour chacun, ce que « douter » voudrait dire.</p>
+    <p class="byline">Texte : <a href="/rien/a-propos/#auteur" rel="author">Claude</a> <span class="muted">(IA)</span> · <span>Mis à jour le <time datetime="2026-09-30">30 septembre 2026</time></span> · <span>6 min de lecture</span></p>
+    <div class="meter">
+  <span class="meter-label" id="meter-label">Certitude abordée</span>
+  <ol class="meter-track" aria-labelledby="meter-label">
+    <li class="seg on" data-lvl="0"><span class="sr-only">Abordé : niveau 0, Indubitable</span></li><li class="seg on" data-lvl="1"><span class="sr-only">Abordé : niveau 1, Démontré</span></li><li class="seg on" data-lvl="2"><span class="sr-only">Abordé : niveau 2, Exact par définition</span></li><li class="seg on" data-lvl="3"><span class="sr-only">Abordé : niveau 3, Vérifié à l’extrême</span></li><li class="seg on" data-lvl="4"><span class="sr-only">Abordé : niveau 4, Établi</span></li><li class="seg on" data-lvl="5"><span class="sr-only">Abordé : niveau 5, Solide</span></li><li class="seg on" data-lvl="6"><span class="sr-only">Abordé : niveau 6, Hypothèse dominante</span></li><li class="seg on" data-lvl="7"><span class="sr-only">Abordé : niveau 7, Question ouverte</span></li><li class="seg on" data-lvl="8"><span class="sr-only">Abordé : niveau 8, Fragile</span></li>
+  </ol>
+  <a class="meter-link" href="/rien/echelle/">niveaux 0 à 8 sur l’échelle</a>
+</div>
+  </header>
+
+  <div class="wrap layout has-toc">
+    <aside class="toc" aria-labelledby="toc-t">
+      <p class="toc-t" id="toc-t">Sur cette page</p>
+      <nav aria-labelledby="toc-t"><ol><li><a href="#lire">Comment lire cette échelle</a></li><li><a href="#neuf-niveaux">Les neuf niveaux</a></li><li><a href="#pieges">Trois pièges de lecture</a></li><li><a href="#giec">Un exemple d’échelle officielle : le langage calibré du GIEC</a></li><li><a href="#sources-page">Sources</a></li></ol></nav>
+    </aside>
+    <div class="prose">
+<h2 id="lire">Comment lire cette échelle</h2>
+<p>Cette échelle n’est pas une norme officielle : c’est un outil de lecture, construit pour ce site à partir de pratiques bien réelles — la manière dont les mathématiciens parlent de preuve, dont les physiciens chiffrent leurs <a class="gloss" href="/rien/glossaire/#incertitude" title="Intervalle qui quantifie ce qu'on ne sait pas d'une mesure. Écrire 4,54 ± 0,05 milliards d'années, c'est affirmer quelque chose de précis — y compris sur ses propres limites.">incertitudes</a>, dont le GIEC calibre son vocabulaire<sup class="cite"><a href="#src-ipcc2021" aria-label="Source 1">1</a></sup>, dont la médecine hiérarchise ses niveaux de preuve.</p>
+<p>Trois idées la structurent :</p>
+<ul>
+  <li><strong>Le niveau 0 à 2 est « certain », mais pour de mauvaises raisons</strong> — ou plutôt pour des raisons qui ne concernent pas le monde : la logique, les axiomes, les conventions.</li>
+  <li><strong>Du niveau 3 au niveau 5, la certitude est empirique</strong> : elle vient de la précision des mesures et, surtout, de la convergence de preuves indépendantes.</li>
+  <li><strong>Du niveau 6 au niveau 8, on entre dans l’ouvert</strong> : hypothèses de travail, questions sans réponse, résultats qui demandent confirmation.</li>
+</ul>
+
+<h2 id="neuf-niveaux">Les neuf niveaux</h2>
+<ol class="ladder" start="0">
+  <li class="rung" id="niveau-0" data-lvl="0">
+    <div class="rung-n" aria-hidden="true">0</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 0 : </span>Indubitable par construction</h3>
+      <p class="rung-short">Tautologies, et le constat qu’il y a de l’expérience</p>
+      <p>Les vérités logiques (« A ou non-A », « si tous les chats sont gris et que Félix est un chat, Félix est gris ») et le constat cartésien minimal : quelque chose est en train d’être vécu. Elles sont certaines parce qu’elles ne disent presque rien du monde.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Principe de non-contradiction</span> <span class="chip">« Je pense, donc je suis » (Descartes, 1637)</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Douter ici revient à abandonner la possibilité même de raisonner. Certains philosophes le font — mais plus aucune science n’est alors possible.</p>
+      <a class="more" href="/rien/mathematiques/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-1" data-lvl="1">
+    <div class="rung-n" aria-hidden="true">1</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 1 : </span>Démontré</h3>
+      <p class="rung-short">Théorèmes mathématiques</p>
+      <p>Un théorème démontré est vrai de façon nécessaire… à l’intérieur de ses axiomes. Le théorème de Pythagore ne sera jamais réfuté ; ce qui peut être discuté, c’est si l’espace physique est euclidien.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Infinité des nombres premiers (Euclide)</span> <span class="chip">Théorème des quatre couleurs, vérifié par ordinateur (2005)</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Le doute porte sur la vérification humaine d’une preuve longue, jamais sur la logique elle-même. La vérification formelle réduit fortement ce risque.</p>
+      <a class="more" href="/rien/mathematiques/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-2" data-lvl="2">
+    <div class="rung-n" aria-hidden="true">2</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 2 : </span>Exact par définition</h3>
+      <p class="rung-short">Conventions et constantes fixées</p>
+      <p>La vitesse de la lumière vaut exactement 299 792 458 m/s — parce que depuis 1983, c’est elle qui définit le mètre. Depuis 2019, sept constantes sont ainsi fixées. Certitude totale, mais sur une convention.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">c = 299 792 458 m/s</span> <span class="chip">h = 6,626 070 15 × 10⁻³⁴ J·s</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> On ne peut pas « découvrir » que ces valeurs sont fausses. On pourrait découvrir qu’une constante varie dans le temps : ce serait une découverte sur le monde, pas sur la convention.</p>
+      <a class="more" href="/rien/physique/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-3" data-lvl="3">
+    <div class="rung-n" aria-hidden="true">3</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 3 : </span>Vérifié à l’extrême</h3>
+      <p class="rung-short">Lois testées à 10⁻¹² ou mieux, dans leur domaine</p>
+      <p>Des lois physiques confrontées à des mesures d’une précision vertigineuse, sans faille détectée : électrodynamique quantique, principe d’équivalence, invariance de la vitesse de la lumière, conservation de la charge.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Moment magnétique de l’électron, accord à ~10⁻¹²</span> <span class="chip">Principe d’équivalence testé à 10⁻¹⁵</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Pas de remise en cause dans le domaine testé : toute théorie future devra reproduire ces résultats. Le doute porte sur ce qui se passe hors du domaine (énergies extrêmes, gravité quantique).</p>
+      <a class="more" href="/rien/physique/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-4" data-lvl="4">
+    <div class="rung-n" aria-hidden="true">4</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 4 : </span>Établi</h3>
+      <p class="rung-short">Faits robustes, par convergence de preuves</p>
+      <p>Des conclusions soutenues par de nombreuses lignes de preuve indépendantes (consilience). Les remettre en cause exigerait d’expliquer pourquoi des méthodes sans lien entre elles donnent toutes la même réponse.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">La matière est faite d’atomes</span> <span class="chip">Âge de la Terre ≈ 4,54 milliards d’années</span> <span class="chip">Ascendance commune des êtres vivants</span> <span class="chip">Réchauffement actuel d’origine humaine</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Les chiffres et mécanismes se précisent ; l’énoncé principal ne bouge plus. Le renverser exigerait d’expliquer autrement toutes les lignes de preuve à la fois.</p>
+      <a class="more" href="/rien/faits-etablis/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-5" data-lvl="5">
+    <div class="rung-n" aria-hidden="true">5</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 5 : </span>Solide, en cours d’affinage</h3>
+      <p class="rung-short">Modèles quantitatifs bien testés, paramètres encore discutés</p>
+      <p>Le cadre fonctionne remarquablement, mais certains chiffres ou mécanismes restent débattus, et des tensions apparaissent parfois entre mesures.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Modèle cosmologique standard (ΛCDM)</span> <span class="chip">Valeur précise de la sensibilité climatique</span> <span class="chip">Datation de LUCA vers ~4,2 milliards d’années</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> On s’attend à des révisions de détail, parfois importantes (la tension sur la constante de Hubble en est un exemple). Le cadre général est rarement abandonné d’un coup.</p>
+      <a class="more" href="/rien/frontieres/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-6" data-lvl="6">
+    <div class="rung-n" aria-hidden="true">6</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 6 : </span>Hypothèse dominante</h3>
+      <p class="rung-short">Meilleure explication disponible, sans preuve décisive</p>
+      <p>L’hypothèse qui rend le mieux compte des données, adoptée comme cadre de travail, mais sans confirmation directe ou avec des concurrentes sérieuses.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">La matière noire est faite de particules</span> <span class="chip">Un « monde à ARN » a précédé l’ADN</span> <span class="chip">L’énergie noire est une constante</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Il est raisonnable de parier dessus, et raisonnable de s’attendre à des surprises. Plusieurs de ces hypothèses sont activement mises à l’épreuve en ce moment.</p>
+      <a class="more" href="/rien/frontieres/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-7" data-lvl="7">
+    <div class="rung-n" aria-hidden="true">7</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 7 : </span>Question ouverte</h3>
+      <p class="rung-short">Pas de consensus, parfois pas même de méthode</p>
+      <p>Les problèmes où plusieurs théories s’affrontent sans qu’aucune expérience n’ait tranché — ou où l’on ne sait pas encore quelle expérience pourrait trancher.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Nature de la conscience</span> <span class="chip">Origine de la vie</span> <span class="chip">Gravité quantique</span> <span class="chip">P = NP ?</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Ici, l’honnêteté consiste à dire « on ne sait pas », et à décrire précisément ce qu’on ne sait pas.</p>
+      <a class="more" href="/rien/frontieres/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+  <li class="rung" id="niveau-8" data-lvl="8">
+    <div class="rung-n" aria-hidden="true">8</div>
+    <div class="rung-body">
+      <h3><span class="sr-only">Niveau 8 : </span>Fragile</h3>
+      <p class="rung-short">Résultats isolés, non répliqués, annoncés trop vite</p>
+      <p>Une seule étude, un petit échantillon, un effet spectaculaire, un communiqué de presse avant la publication : c’est la zone où se concentrent les erreurs et les fraudes.</p>
+      <p class="rung-ex"><strong>Exemples</strong> <span class="chip">Une étude nutritionnelle unique sur 40 personnes</span> <span class="chip">LK-99, « supraconducteur à température ambiante » (2023)</span></p>
+      <p class="rung-doubt"><strong>Douter, ici, voudrait dire…</strong> Le doute est la position par défaut. Beaucoup de ces résultats disparaissent ; certains montent l’échelle après réplication.</p>
+      <a class="more" href="/rien/erreurs/">Approfondir <span aria-hidden="true">→</span></a>
+    </div>
+  </li>
+</ol>
+
+<h2 id="pieges">Trois pièges de lecture</h2>
+
+<h3>1. Le niveau dépend de l’énoncé exact, pas du sujet</h3>
+<p>« Le climat » n’a pas <em>un</em> niveau de certitude. Chaque affirmation précise a le sien :</p>
+<div class="table-wrap"><table>
+  <caption>Un même sujet, des énoncés de solidité très différente</caption>
+  <thead><tr><th scope="col">Énoncé</th><th scope="col">Niveau</th></tr></thead>
+  <tbody>
+    <tr><td>Le CO₂ absorbe le rayonnement infrarouge</td><td><a class="lvl" data-lvl="3" href="/rien/echelle/#niveau-3" title="Vérifié à l'extrême">niveau 3</a></td></tr>
+    <tr><td>Le réchauffement observé depuis 1850 est dû aux activités humaines</td><td><a class="lvl" data-lvl="4" href="/rien/echelle/#niveau-4" title="Établi">niveau 4</a></td></tr>
+    <tr><td>Doubler le CO₂ réchauffe la planète d’environ 3 °C à terme</td><td><a class="lvl" data-lvl="5" href="/rien/echelle/#niveau-5" title="Solide, en cours d'affinage">niveau 5</a></td></tr>
+    <tr><td>Telle circulation océanique s’effondrera avant 2050</td><td><a class="lvl" data-lvl="7" href="/rien/echelle/#niveau-7" title="Question ouverte">niveau 7</a></td></tr>
+  </tbody>
+</table></div>
+<p>Beaucoup de faux débats naissent d’un glissement d’un niveau à l’autre : on conteste un chiffre incertain pour laisser entendre que le phénomène lui-même est douteux — ou, à l’inverse, on présente une projection incertaine avec l’assurance réservée aux faits établis.</p>
+
+<h3>2. Les énoncés montent et descendent</h3>
+<p>L’échelle n’est pas figée. L’idée qu’une bactérie cause la plupart des ulcères de l’estomac est passée en quelques années de l’hypothèse marginale au fait établi<sup class="cite"><a href="#src-marshall1984" aria-label="Source 2">2</a></sup>. À l’inverse, la « polywater » des années 1960 est descendue jusqu’à disparaître. Le mouvement normal, c’est la montée lente par accumulation de preuves ; la chute brutale concerne surtout les niveaux 6 à 8. Voir <a href="/rien/erreurs/">Les erreurs</a>.</p>
+
+<h3>3. Une barre d’erreur n’est pas un aveu d’ignorance</h3>
+<p>Écrire que la Terre a 4,54 ± 0,05 milliards d’années, c’est affirmer quelque chose de très précis — y compris sur ce qu’on ne sait pas. Un résultat sans incertitude chiffrée est moins scientifique, pas plus. Dans le débat public, la présence d’une fourchette est parfois prise pour du doute ; c’est exactement l’inverse.</p>
+
+<h2 id="giec">Un exemple d’échelle officielle : le langage calibré du GIEC</h2>
+<p>Certaines institutions ont formalisé leur vocabulaire pour éviter les malentendus. Le GIEC associe ainsi des expressions à des probabilités précises<sup class="cite"><a href="#src-ipcc2021" aria-label="Source 1">1</a></sup> :</p>
+<div class="table-wrap"><table>
+  <caption>Termes de probabilité du GIEC (6<sup>e</sup> rapport, 2021)</caption>
+  <thead><tr><th scope="col">Expression</th><th scope="col" class="n">Probabilité</th></tr></thead>
+  <tbody>
+    <tr><td>Pratiquement certain</td><td class="n">99 – 100 %</td></tr>
+    <tr><td>Extrêmement probable</td><td class="n">95 – 100 %</td></tr>
+    <tr><td>Très probable</td><td class="n">90 – 100 %</td></tr>
+    <tr><td>Probable</td><td class="n">66 – 100 %</td></tr>
+    <tr><td>Aussi probable qu’improbable</td><td class="n">33 – 66 %</td></tr>
+    <tr><td>Improbable</td><td class="n">0 – 33 %</td></tr>
+    <tr><td>Très improbable</td><td class="n">0 – 10 %</td></tr>
+    <tr><td>Exceptionnellement improbable</td><td class="n">0 – 1 %</td></tr>
+  </tbody>
+</table></div>
+<p>Remarquez que même l’échelon le plus haut s’arrête à « pratiquement » certain. Et notez l’exception parlante : pour l’influence humaine sur le réchauffement, le rapport de 2021 n’emploie pas une probabilité mais le mot « sans équivoque » (<em>unequivocal</em>) — un jugement porté sur l’ensemble des preuves plutôt qu’un chiffre.</p>
+
+<div class="box note">
+  <p class="box-t">Pourquoi jamais 100 % ?</p>
+  <p>Ce n’est pas de la fausse modestie. En raisonnement probabiliste, attribuer une probabilité de 0 ou de 1 à un énoncé sur le monde revient à déclarer qu’aucune preuve future ne pourra jamais le modifier. C’est la <a class="gloss" href="/rien/glossaire/#cromwell" title="Principe bayésien (D. Lindley) : ne jamais attribuer une probabilité de 0 ou de 1 à un énoncé empirique, car aucune preuve ne pourrait alors plus la modifier.">règle de cromwell</a><sup class="cite"><a href="#src-lindley1991" aria-label="Source 3">3</a></sup>. Garder une marge — fût-elle infime — c’est rester corrigible. Voir <a href="/rien/methode/#probabilites">La méthode</a>.</p>
+</div>
+
+<section class="page-sources" aria-labelledby="sources-page">
+  <h2 id="sources-page">Sources de cette page</h2>
+  <ol>
+    <li id="src-ipcc2021"><span class="c-auth">GIEC / IPCC, Groupe de travail I</span> (2021). « <span class="c-title">Climate Change 2021: The Physical Science Basis — Summary for Policymakers (AR6)</span> ». <cite>Cambridge University Press</cite>. <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf" rel="noopener">ipcc.ch</a></li>
+    <li id="src-marshall1984"><span class="c-auth">Marshall, B. J. ; Warren, J. R.</span> (1984). « <span class="c-title">Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration</span> ». <cite>The Lancet, vol. 323, n° 8390, p. 1311-1315</cite>. <a href="https://doi.org/10.1016/S0140-6736(84)91816-6" rel="noopener">doi:10.1016/S0140-6736(84)91816-6</a></li>
+    <li id="src-lindley1991"><span class="c-auth">Lindley, D. V.</span> (1991). « <span class="c-title">Making Decisions (2e éd.) — « règle de Cromwell »</span> ». <cite>Wiley</cite>.</li>
+  </ol>
+  <p class="all-src"><a href="/rien/sources/">Toutes les sources du site</a></p>
+</section>
+    </div>
+  </div>
+
+  <nav class="wrap pager" aria-label="Pages précédente et suivante">
+    <a class="prev" href="/rien/" rel="prev"><span class="dir">← Précédent</span><span class="t">Accueil</span></a>
+    <a class="next" href="/rien/mathematiques/" rel="next"><span class="dir">Suivant →</span><span class="t">Logique et mathématiques</span></a>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-in">
+    <div class="f-brand">
+      <a class="brand" href="/rien/"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-f" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-f)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+      <p>De quoi la science est-elle sûre à 100 % ?</p>
+    </div>
+    <nav class="f-nav" aria-label="Pied de page">
+      <ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li><li><a href="/rien/glossaire/">Glossaire</a></li><li><a href="/rien/sources/">Sources</a></li><li><a href="/rien/a-propos/">À propos</a></li><li><a href="/rien/feed.xml">Flux Atom</a></li></ul>
+    </nav>
+    <div class="f-sign" id="signature">
+      <p>Textes rédigés par <strong>Claude</strong>, une intelligence artificielle conçue par Anthropic, à la demande d’un éditeur qui a choisi de rester anonyme. Une IA peut se tromper : chaque affirmation importante renvoie à sa source. <a href="https://github.com/ouaisfieu/rien/issues">Signaler une erreur</a>.</p>
+      <p class="muted">Contenu sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Aucun cookie, aucun traceur, aucune ressource tierce.</p>
+    </div>
+  </div>
+</footer>
+<script src="/rien/assets/app.js?v=b0b719ac0c" defer></script>
+</body>
+</html>

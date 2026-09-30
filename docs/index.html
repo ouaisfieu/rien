@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>De quoi la science est-elle sûre à 100 % ? — Rien (ou presque)</title>
+<meta name="description" content="Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.">
+<link rel="canonical" href="https://ouaisfieu.github.io/rien/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Claude (IA, Anthropic)">
+<meta name="keywords" content="certitude scientifique, épistémologie, vulgarisation, méthode scientifique, vérité en science, consensus scientifique, incertitude">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1311">
+<link rel="icon" href="/rien/assets/favicon.svg?v=7264be8543" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/rien/assets/apple-touch-icon.png?v=85c0044982">
+<link rel="manifest" href="/rien/manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="Rien (ou presque)" href="/rien/feed.xml">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="stylesheet" href="/rien/assets/style.css?v=1047d540d2">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rien (ou presque)">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="De quoi la science est-elle sûre à 100 % ?">
+<meta property="og:description" content="Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.">
+<meta property="og:url" content="https://ouaisfieu.github.io/rien/">
+<meta property="og:image" content="https://ouaisfieu.github.io/rien/assets/og-accueil.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="De quoi la science est-elle sûre à 100 % ? — Rien (ou presque)">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="De quoi la science est-elle sûre à 100 % ?">
+<meta name="twitter:description" content="Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.">
+<meta name="twitter:image" content="https://ouaisfieu.github.io/rien/assets/og-accueil.png">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://ouaisfieu.github.io/rien/#site",
+   "url": "https://ouaisfieu.github.io/rien/",
+   "name": "Rien (ou presque)",
+   "alternateName": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.",
+   "inLanguage": "fr",
+   "creator": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur",
+   "name": "Claude",
+   "description": "Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+   },
+   "url": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://ouaisfieu.github.io/rien/#page",
+   "url": "https://ouaisfieu.github.io/rien/",
+   "name": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.",
+   "inLanguage": "fr",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/rien/assets/og-accueil.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30"
+  },
+  {
+   "@type": "Article",
+   "@id": "https://ouaisfieu.github.io/rien/#article",
+   "mainEntityOfPage": {
+    "@id": "https://ouaisfieu.github.io/rien/#page"
+   },
+   "headline": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.",
+   "inLanguage": "fr",
+   "author": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "image": "https://ouaisfieu.github.io/rien/assets/og-accueil.png",
+   "wordCount": 1559,
+   "isAccessibleForFree": true,
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+   "audience": {
+    "@type": "Audience",
+    "audienceType": "Grand public"
+   },
+   "educationalLevel": "Grand public curieux, sans prérequis",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Épistémologie",
+     "sameAs": "https://fr.wikipedia.org/wiki/%C3%89pist%C3%A9mologie"
+    },
+    {
+     "@type": "Thing",
+     "name": "Certitude",
+     "sameAs": "https://fr.wikipedia.org/wiki/Certitude"
+    },
+    {
+     "@type": "Thing",
+     "name": "Méthode scientifique",
+     "sameAs": "https://fr.wikipedia.org/wiki/M%C3%A9thode_scientifique"
+    }
+   ],
+   "keywords": "certitude scientifique, épistémologie, vulgarisation, méthode scientifique, vérité en science, consensus scientifique, incertitude",
+   "citation": [
+    {
+     "@type": "Book",
+     "name": "Enquête sur l'entendement humain",
+     "author": "Hume, D.",
+     "datePublished": "1748",
+     "isPartOf": "(An Enquiry Concerning Human Understanding)"
+    },
+    {
+     "@type": "Article",
+     "name": "The Value of Science",
+     "author": "Feynman, R. P.",
+     "datePublished": "1955",
+     "isPartOf": "Engineering and Science, vol. 19, n° 3",
+     "url": "https://calteches.library.caltech.edu/1575/"
+    },
+    {
+     "@type": "Book",
+     "name": "Making Decisions (2e éd.) — « règle de Cromwell »",
+     "author": "Lindley, D. V.",
+     "datePublished": "1991",
+     "isPartOf": "Wiley"
+    },
+    {
+     "@type": "Report",
+     "name": "Le Système international d'unités (SI), 9e édition",
+     "author": "BIPM",
+     "datePublished": "2019",
+     "isPartOf": "Bureau international des poids et mesures",
+     "url": "https://www.bipm.org/fr/publications/si-brochure"
+    },
+    {
+     "@type": "Book",
+     "name": "Discours de la méthode",
+     "author": "Descartes, R.",
+     "datePublished": "1637",
+     "isPartOf": "Leyde, Jan Maire",
+     "url": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Measurement of the Electron Magnetic Moment",
+     "author": "Fan, X. ; Myers, T. G. ; Sukra, B. A. D. ; Gabrielse, G.",
+     "datePublished": "2023",
+     "isPartOf": "Physical Review Letters, vol. 130, 071801",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1103/PhysRevLett.130.071801"
+     },
+     "url": "https://doi.org/10.1103/PhysRevLett.130.071801"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "The age of the Earth in the twentieth century: a problem (mostly) solved",
+     "author": "Dalrymple, G. B.",
+     "datePublished": "2001",
+     "isPartOf": "Geological Society, London, Special Publications, vol. 190, p. 205-221",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1144/GSL.SP.2001.190.01.14"
+     },
+     "url": "https://doi.org/10.1144/GSL.SP.2001.190.01.14"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle",
+     "author": "Touboul, P. et al. (MICROSCOPE)",
+     "datePublished": "2022",
+     "isPartOf": "Physical Review Letters, vol. 129, 121102",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1103/PhysRevLett.129.121102"
+     },
+     "url": "https://doi.org/10.1103/PhysRevLett.129.121102"
+    },
+    {
+     "@type": "Article",
+     "name": "Evolution as Fact and Theory",
+     "author": "Gould, S. J.",
+     "datePublished": "1981",
+     "isPartOf": "Discover, mai 1981",
+     "url": "https://www.stephenjaygould.org/library/gould_fact-and-theory.html"
+    },
+    {
+     "@type": "Article",
+     "name": "The Relativity of Wrong",
+     "author": "Asimov, I.",
+     "datePublished": "1989",
+     "isPartOf": "The Skeptical Inquirer, vol. 14, n° 1",
+     "url": "https://cdn.centerforinquiry.org/wp-content/uploads/sites/29/1989/10/22165236/p46.pdf"
+    },
+    {
+     "@type": "Article",
+     "name": "Pathological Science (conférence de 1953)",
+     "author": "Langmuir, I. (transcr. R. N. Hall)",
+     "datePublished": "1989",
+     "isPartOf": "Physics Today, vol. 42, n° 10, p. 36-48",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1063/1.881205"
+     },
+     "url": "https://doi.org/10.1063/1.881205"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://ouaisfieu.github.io/rien/#faq",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#page"
+   },
+   "inLanguage": "fr",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Une théorie scientifique, ce n'est qu'une hypothèse ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Non. En science, « théorie » désigne un cadre explicatif qui unifie de nombreux faits et a survécu à de nombreux tests : la théorie atomique ou la théorie de l'évolution comptent parmi les connaissances les plus solides dont nous disposons. Une hypothèse, c'est une proposition qu'on s'apprête à tester."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Si la science peut se tromper, pourquoi lui faire confiance ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Parce qu'elle est le seul système de connaissance organisé pour détecter et corriger ses propres erreurs : réplications, mesures indépendantes, publication des méthodes, critique ouverte. Sa fiabilité ne vient pas de l'infaillibilité des chercheurs, mais de ce dispositif collectif. Et ses erreurs se concentrent dans des zones qu'on sait repérer : résultats isolés, petits échantillons, annonces précipitées."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Les mathématiques, elles, sont-elles certaines à 100 % ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Un théorème démontré est vrai nécessairement, mais conditionnellement : il découle de ses axiomes. Il ne dit pas si ces axiomes décrivent le monde physique. Par ailleurs, les démonstrations sont vérifiées par des humains, qui se trompent parfois ; la vérification par ordinateur réduit fortement ce risque."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Un résultat à 5 sigmas, c'est 99,99994 % de chances d'avoir raison ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Non. 5 sigmas signifie qu'une fluctuation due au seul hasard produirait un signal aussi fort environ une fois sur 3,5 millions. Cela ne dit rien des erreurs systématiques (un câble défectueux, un biais d'analyse) ni de la plausibilité de l'hypothèse. C'est une mesure du bruit, pas de la vérité."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Existe-t-il quelque chose dont on soit absolument certain ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Oui, mais c'est peu informatif : les vérités logiques, les théorèmes (relativement à leurs axiomes), les conventions (la vitesse de la lumière vaut exactement 299 792 458 m/s parce que c'est ainsi qu'on définit le mètre) et, pour de nombreux philosophes, le simple fait qu'il y ait de l'expérience vécue. Tout ce qui concerne le monde observable relève du degré de confiance — parfois immensément élevé."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Une connaissance « établie » peut-elle encore être renversée ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "En principe oui, en pratique très rarement, et presque jamais complètement. L'histoire montre surtout des théories qui deviennent des cas particuliers de théories plus larges : la mécanique de Newton n'a pas été jetée, elle a été délimitée. Ce qui a été mesuré et prédit avec succès reste acquis ; seule l'interprétation profonde peut changer."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://ouaisfieu.github.io/rien/#echelle",
+   "name": "Échelle de la certitude scientifique (9 niveaux)",
+   "itemListOrder": "https://schema.org/ItemListOrderAscending",
+   "numberOfItems": 9,
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Niveau 0 — Indubitable par construction",
+     "description": "Les vérités logiques (« A ou non-A », « si tous les chats sont gris et que Félix est un chat, Félix est gris ») et le constat cartésien minimal : quelque chose est en train d'être vécu. Elles sont certaines parce qu'elles ne disent presque rien du monde.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-0"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Niveau 1 — Démontré",
+     "description": "Un théorème démontré est vrai de façon nécessaire… à l'intérieur de ses axiomes. Le théorème de Pythagore ne sera jamais réfuté ; ce qui peut être discuté, c'est si l'espace physique est euclidien.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-1"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Niveau 2 — Exact par définition",
+     "description": "La vitesse de la lumière vaut exactement 299 792 458 m/s — parce que depuis 1983, c'est elle qui définit le mètre. Depuis 2019, sept constantes sont ainsi fixées. Certitude totale, mais sur une convention.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-2"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Niveau 3 — Vérifié à l'extrême",
+     "description": "Des lois physiques confrontées à des mesures d'une précision vertigineuse, sans faille détectée : électrodynamique quantique, principe d'équivalence, invariance de la vitesse de la lumière, conservation de la charge.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-3"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "Niveau 4 — Établi",
+     "description": "Des conclusions soutenues par de nombreuses lignes de preuve indépendantes (consilience). Les remettre en cause exigerait d'expliquer pourquoi des méthodes sans lien entre elles donnent toutes la même réponse.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-4"
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "name": "Niveau 5 — Solide, en cours d'affinage",
+     "description": "Le cadre fonctionne remarquablement, mais certains chiffres ou mécanismes restent débattus, et des tensions apparaissent parfois entre mesures.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-5"
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "name": "Niveau 6 — Hypothèse dominante",
+     "description": "L'hypothèse qui rend le mieux compte des données, adoptée comme cadre de travail, mais sans confirmation directe ou avec des concurrentes sérieuses.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-6"
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "name": "Niveau 7 — Question ouverte",
+     "description": "Les problèmes où plusieurs théories s'affrontent sans qu'aucune expérience n'ait tranché — ou où l'on ne sait pas encore quelle expérience pourrait trancher.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-7"
+    },
+    {
+     "@type": "ListItem",
+     "position": 9,
+     "name": "Niveau 8 — Fragile",
+     "description": "Une seule étude, un petit échantillon, un effet spectaculaire, un communiqué de presse avant la publication : c'est la zone où se concentrent les erreurs et les fraudes.",
+     "url": "https://ouaisfieu.github.io/rien/echelle/#niveau-8"
+    }
+   ]
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://ouaisfieu.github.io/rien/#sommaire",
+   "name": "Parcours du site",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "L'échelle de la certitude",
+     "url": "https://ouaisfieu.github.io/rien/echelle/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Logique et mathématiques : la certitude démontrée",
+     "url": "https://ouaisfieu.github.io/rien/mathematiques/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Les lois physiques : vérifiées jusqu'à la douzième décimale",
+     "url": "https://ouaisfieu.github.io/rien/physique/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Les faits établis : quand douter devient déraisonnable",
+     "url": "https://ouaisfieu.github.io/rien/faits-etablis/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "Le vivant : ce qu'on sait, ce qu'on ne sait pas définir",
+     "url": "https://ouaisfieu.github.io/rien/vivant/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "name": "La méthode : fabriquer de la confiance sans jamais atteindre 100 %",
+     "url": "https://ouaisfieu.github.io/rien/methode/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "name": "Quand la science se trompe — et comment elle s'en rend compte",
+     "url": "https://ouaisfieu.github.io/rien/erreurs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "name": "Les frontières : ce qu'on ne sait pas (encore)",
+     "url": "https://ouaisfieu.github.io/rien/frontieres/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 9,
+     "name": "Glossaire",
+     "url": "https://ouaisfieu.github.io/rien/glossaire/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 10,
+     "name": "Sources et bibliographie",
+     "url": "https://ouaisfieu.github.io/rien/sources/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 11,
+     "name": "À propos de ce site",
+     "url": "https://ouaisfieu.github.io/rien/a-propos/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body class="p-accueil">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="halo" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="/rien/" aria-label="Rien (ou presque) — accueil"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-h" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-h)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="/rien/" aria-current="page">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li></ul></nav>
+    <button class="theme-btn" type="button" aria-pressed="false" title="Basculer le thème clair / sombre"><span class="sr-only">Thème clair</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path class="moon" d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="sun" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+  </div>
+</header>
+
+<main id="contenu" tabindex="-1">
+<article class="page">
+  <header class="hero wrap">
+    
+    <p class="kicker">Vulgarisation · épistémologie</p>
+    <h1>De quoi la science est-elle sûre à 100 % ?</h1>
+    <p class="lead">Réponse courte : au sens strict, de presque rien. Réponse utile : d’une quantité immense de choses, à un degré tel que douter deviendrait déraisonnable. Tout l’intérêt de la question tient dans l’écart entre ces deux réponses.</p>
+    <p class="byline">Texte : <a href="/rien/a-propos/#auteur" rel="author">Claude</a> <span class="muted">(IA)</span> · <span>Mis à jour le <time datetime="2026-09-30">30 septembre 2026</time></span> · <span>7 min de lecture</span></p>
+    <div class="meter">
+  <span class="meter-label" id="meter-label">Certitude abordée</span>
+  <ol class="meter-track" aria-labelledby="meter-label">
+    <li class="seg on" data-lvl="0"><span class="sr-only">Abordé : niveau 0, Indubitable</span></li><li class="seg on" data-lvl="1"><span class="sr-only">Abordé : niveau 1, Démontré</span></li><li class="seg on" data-lvl="2"><span class="sr-only">Abordé : niveau 2, Exact par définition</span></li><li class="seg on" data-lvl="3"><span class="sr-only">Abordé : niveau 3, Vérifié à l’extrême</span></li><li class="seg on" data-lvl="4"><span class="sr-only">Abordé : niveau 4, Établi</span></li><li class="seg on" data-lvl="5"><span class="sr-only">Abordé : niveau 5, Solide</span></li><li class="seg on" data-lvl="6"><span class="sr-only">Abordé : niveau 6, Hypothèse dominante</span></li><li class="seg on" data-lvl="7"><span class="sr-only">Abordé : niveau 7, Question ouverte</span></li><li class="seg on" data-lvl="8"><span class="sr-only">Abordé : niveau 8, Fragile</span></li>
+  </ol>
+  <a class="meter-link" href="/rien/echelle/">niveaux 0 à 8 sur l’échelle</a>
+</div>
+  </header>
+
+  <div class="wrap layout has-toc">
+    <aside class="toc" aria-labelledby="toc-t">
+      <p class="toc-t" id="toc-t">Sur cette page</p>
+      <nav aria-labelledby="toc-t"><ol><li><a href="#trois-temps">La réponse en trois temps</a></li><li><a href="#ce-qui-ne-mourra-pas">Ce dont on est sûr : les bonnes théories ne meurent jamais tout à fait</a></li><li><a href="#comment-on-se-trompe">Ce dont on est sûr aussi : la manière dont on se trompe</a></li><li><a href="#parcours">Parcourir le site</a></li><li><a href="#echelle-en-bref">L’échelle en un coup d’œil</a></li><li><a href="#questions">Questions fréquentes</a></li><li><a href="#sources-page">Sources</a></li></ol></nav>
+    </aside>
+    <div class="prose">
+<h2 id="trois-temps">La réponse en trois temps</h2>
+
+<h3>1. Au sens strict : rien d’empirique n’est certain</h3>
+<p>Toute connaissance tirée de l’observation repose, au bout du compte, sur une <a class="gloss" href="/rien/glossaire/#induction" title="Raisonnement qui généralise à partir de cas observés (« le Soleil s'est toujours levé, donc il se lèvera demain »). Indispensable aux sciences expérimentales, mais jamais logiquement concluant : c'est le « problème de Hume ».">induction</a> : on généralise à partir de cas passés. Or, comme l’a montré David Hume au XVIII<sup>e</sup> siècle, aucun nombre d’observations ne garantit logiquement la suivante<sup class="cite"><a href="#src-hume1748" aria-label="Source 1">1</a></sup>. Ajoutez à cela que nos instruments, nos théories et nos raisonnements peuvent tous faillir, et la conclusion s’impose : aucune affirmation sur le monde n’atteint la certitude <em>logique</em>.</p>
+<blockquote>
+  <p>La connaissance scientifique est un ensemble d’énoncés dotés de degrés de certitude variables — certains très incertains, certains presque sûrs, aucun absolument certain.</p>
+  <footer>Richard Feynman, <cite>The Value of Science</cite>, 1955<sup class="cite"><a href="#src-feynman1955" aria-label="Source 2">2</a></sup></footer>
+</blockquote>
+<p>Ce n’est pas un aveu de faiblesse. C’est même, on le verra, la condition de la solidité de la science : une croyance tenue pour certaine à 100 % ne pourrait plus être corrigée par aucune preuve<sup class="cite"><a href="#src-lindley1991" aria-label="Source 3">3</a></sup>.</p>
+
+<h3>2. Il existe pourtant des poches de certitude totale</h3>
+<p>Mais elles ont un point commun intéressant : elles disent très peu de choses sur le monde.</p>
+<ul>
+  <li><strong>La logique et les mathématiques.</strong> Un <a class="gloss" href="/rien/glossaire/#theoreme" title="Énoncé mathématique démontré. Sa vérité est conditionnelle : « si les axiomes sont admis, alors… ».">théorème</a> démontré est vrai de façon nécessaire — à l’intérieur de ses <a class="gloss" href="/rien/glossaire/#axiome" title="Énoncé admis sans démonstration, qui sert de point de départ à un système déductif. Les théorèmes d'un système ne sont jamais « plus vrais » que ses axiomes : ils en découlent.">axiomes</a>. Il ne sera jamais réfuté par une expérience, parce qu’il n’en dépend pas. <a href="/rien/mathematiques/">Voir la page Mathématiques</a>.</li>
+  <li><strong>Les conventions.</strong> La vitesse de la lumière vaut <em>exactement</em> 299 792 458 mètres par seconde. Ce n’est pas une mesure : depuis 1983, c’est la définition du mètre<sup class="cite"><a href="#src-bipm2019" aria-label="Source 4">4</a></sup>. Certitude absolue, contenu empirique nul. <a href="/rien/physique/#exact">Voir la page Physique</a>.</li>
+  <li><strong>Le constat minimal qu’il y a de l’expérience.</strong> « Je pense, donc je suis » : quelle que soit l’ampleur de mes illusions, <em>quelque chose</em> est en train d’être vécu<sup class="cite"><a href="#src-descartes1637" aria-label="Source 5">5</a></sup>. C’est un point d’appui philosophique plus qu’un résultat scientifique.</li>
+</ul>
+
+<h3>3. Et entre les deux : un savoir d’une solidité vertigineuse</h3>
+<p>Entre « certain par construction » et « simple opinion », la science a bâti un territoire immense de connaissances dont la fiabilité dépasse tout ce que l’expérience humaine ordinaire connaît.</p>
+<ul class="figures">
+  <li><span class="num">1 sur 10<sup>12</sup></span><span class="lab">Accord entre la théorie et la mesure du magnétisme de l’électron — l’équivalent de mesurer la distance Paris-Bruxelles (environ 260 km) à un quart de micromètre près<sup class="cite"><a href="#src-fan2023" aria-label="Source 6">6</a></sup>.</span></li>
+  <li><span class="num">4,54 ± 0,05</span><span class="lab">milliards d’années : l’âge de la Terre, obtenu par plusieurs horloges radioactives indépendantes qui concordent<sup class="cite"><a href="#src-dalrymple2001" aria-label="Source 7">7</a></sup>.</span></li>
+  <li><span class="num">10<sup>−15</sup></span><span class="lab">Précision à laquelle le principe d’équivalence d’Einstein a été vérifié dans l’espace, sans la moindre déviation<sup class="cite"><a href="#src-touboul2022" aria-label="Source 8">8</a></sup>.</span></li>
+</ul>
+<p>Pour ces connaissances, Stephen Jay Gould proposait une définition pragmatique : un fait scientifique est un énoncé « confirmé à un degré tel qu’il serait pervers de lui refuser un assentiment provisoire »<sup class="cite"><a href="#src-gould1981" aria-label="Source 9">9</a></sup>. Pas certain à 100 %, donc. Mais pas « une opinion parmi d’autres » non plus.</p>
+
+<div class="box key">
+  <p class="box-t">L’essentiel</p>
+  <p>La vraie question n’est pas « est-ce certain ? » (la réponse est presque toujours non) mais « <strong>à quel point est-ce solide, et comment le sait-on ?</strong> ». C’est pour y répondre que ce site propose une <a href="/rien/echelle/">échelle de la certitude</a> en neuf niveaux.</p>
+</div>
+
+<h2 id="ce-qui-ne-mourra-pas">Ce dont on est sûr : les bonnes théories ne meurent jamais tout à fait</h2>
+<p>On entend souvent : « la science change tout le temps d’avis ». C’est à la fois vrai et profondément trompeur. Isaac Asimov l’a expliqué avec un exemple simple<sup class="cite"><a href="#src-asimov1989" aria-label="Source 10">10</a></sup> : croire la Terre plate, c’était se tromper ; la croire parfaitement sphérique, c’était aussi se tromper (elle est légèrement aplatie aux pôles). Mais ces deux erreurs ne se valent pas du tout. Mesurez de combien la surface s’écarte d’une ligne droite : la Terre plate prédit zéro, la sphère prédit environ 12,6 cm par kilomètre (Asimov écrivait « 8 pouces par mille »), et l’ellipsoïde affine ce chiffre entre 12,56 et 12,64 selon l’endroit. L’erreur de la sphère porte sur la troisième décimale ; celle de la Terre plate, sur tout.</p>
+<blockquote>
+  <p>Si vous pensez que croire la Terre sphérique est aussi faux que la croire plate, alors votre opinion est plus fausse que les deux réunies.</p>
+  <footer>Isaac Asimov, <cite>The Relativity of Wrong</cite>, 1989</footer>
+</blockquote>
+<p>Voilà ce qui est acquis avec une assurance presque totale : non pas qu’une théorie actuelle soit le dernier mot de la réalité, mais que <strong>ses prédictions vérifiées, dans le domaine où elles ont été vérifiées, resteront vraies</strong>. Toute théorie future devra les retrouver. La relativité d’Einstein n’a pas « réfuté » Newton : elle a délimité son <a class="gloss" href="/rien/glossaire/#domaine-validite" title="Ensemble des conditions (vitesses, échelles, énergies…) dans lesquelles une théorie a été testée et fonctionne. La mécanique de Newton n'est pas « fausse » : son domaine de validité est connu.">domaine de validité</a>, et elle redonne les formules de Newton aux faibles vitesses. C’est le <a class="gloss" href="/rien/glossaire/#correspondance" title="Une théorie nouvelle doit retrouver les prédictions de l'ancienne là où celle-ci fonctionnait. C'est ce qui rend le savoir scientifique cumulatif malgré les révolutions.">principe de correspondance</a>, et c’est ce qui rend la science cumulative malgré ses révolutions.</p>
+
+<h2 id="comment-on-se-trompe">Ce dont on est sûr aussi : la manière dont on se trompe</h2>
+<p>La science se trompe, parfois gravement — des « rayons N » de 1903 aux fraudes de la pandémie de COVID-19. Mais l’histoire de ses erreurs dessine une carte étonnamment régulière : elles se concentrent sur les résultats isolés, les petits échantillons, les effets à la limite du détectable, les annonces faites avant publication, les domaines soumis à de fortes pressions. Et elles sont presque toujours corrigées par… d’autres scientifiques<sup class="cite"><a href="#src-langmuir1989" aria-label="Source 11">11</a></sup>.</p>
+<p>Savoir <em>où</em> se trouvent les erreurs, c’est savoir où placer sa confiance. <a href="/rien/erreurs/">Lire la page consacrée aux erreurs</a>.</p>
+
+<h2 id="parcours">Parcourir le site</h2>
+<ul class="cards">
+  <li><a class="card" href="/rien/echelle/" data-lvl="4"><span class="c-n">Commencer ici</span><span class="c-t">L’échelle de la certitude</span><span class="c-d">Neuf crans, du démontré au fragile, avec ce que « douter » voudrait dire à chaque niveau.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/mathematiques/" data-lvl="1"><span class="c-n">Niveaux 0 – 1</span><span class="c-t">Logique et mathématiques</span><span class="c-d">La seule certitude démontrée — et les astérisques qui l’accompagnent : axiomes, Gödel, preuves fautives.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/physique/" data-lvl="3"><span class="c-n">Niveaux 2 – 3</span><span class="c-t">Les lois physiques</span><span class="c-d">Des constantes exactes par décret, et des lois vérifiées jusqu’à la douzième décimale.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/faits-etablis/" data-lvl="4"><span class="c-n">Niveau 4</span><span class="c-t">Les faits établis</span><span class="c-d">Atomes, âge de la Terre, évolution, climat : quand des preuves indépendantes convergent.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/vivant/" data-lvl="6"><span class="c-n">Niveaux 4 – 7</span><span class="c-t">Le vivant</span><span class="c-d">On sait comment la vie fonctionne et d’où elle descend. On ne sait ni la définir, ni comment elle a commencé.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/methode/" data-lvl="5"><span class="c-n">Outils</span><span class="c-t">La méthode</span><span class="c-d">Induction, réfutation, sigmas, probabilités : comment on fabrique de la confiance sans jamais atteindre 100 %.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/erreurs/" data-lvl="8"><span class="c-n">Niveau 8</span><span class="c-t">Les erreurs</span><span class="c-d">Science pathologique, fraudes, crise de la réplication — et la machinerie qui corrige.</span><span class="c-go">Lire →</span></a></li>
+  <li><a class="card" href="/rien/frontieres/" data-lvl="7"><span class="c-n">Niveaux 5 – 7</span><span class="c-t">Les frontières</span><span class="c-d">Matière noire, origine de la vie, conscience : cartographier honnêtement ce qu’on ignore.</span><span class="c-go">Lire →</span></a></li>
+</ul>
+
+<h2 id="echelle-en-bref">L’échelle en un coup d’œil</h2>
+<p>Chaque énoncé scientifique se situe quelque part sur cette échelle. Le vert désigne le solide, le lilas l’ouvert, l’ambre le fragile.</p>
+<ol class="ladder-mini" start="0">
+  <li data-lvl="0"><a href="/rien/echelle/#niveau-0"><span class="rung-n" aria-hidden="true">0</span><span class="rung-t"><strong>Indubitable par construction</strong><span>Tautologies, et le constat qu’il y a de l’expérience</span></span></a></li>
+  <li data-lvl="1"><a href="/rien/echelle/#niveau-1"><span class="rung-n" aria-hidden="true">1</span><span class="rung-t"><strong>Démontré</strong><span>Théorèmes mathématiques</span></span></a></li>
+  <li data-lvl="2"><a href="/rien/echelle/#niveau-2"><span class="rung-n" aria-hidden="true">2</span><span class="rung-t"><strong>Exact par définition</strong><span>Conventions et constantes fixées</span></span></a></li>
+  <li data-lvl="3"><a href="/rien/echelle/#niveau-3"><span class="rung-n" aria-hidden="true">3</span><span class="rung-t"><strong>Vérifié à l’extrême</strong><span>Lois testées à 10⁻¹² ou mieux, dans leur domaine</span></span></a></li>
+  <li data-lvl="4"><a href="/rien/echelle/#niveau-4"><span class="rung-n" aria-hidden="true">4</span><span class="rung-t"><strong>Établi</strong><span>Faits robustes, par convergence de preuves</span></span></a></li>
+  <li data-lvl="5"><a href="/rien/echelle/#niveau-5"><span class="rung-n" aria-hidden="true">5</span><span class="rung-t"><strong>Solide, en cours d’affinage</strong><span>Modèles quantitatifs bien testés, paramètres encore discutés</span></span></a></li>
+  <li data-lvl="6"><a href="/rien/echelle/#niveau-6"><span class="rung-n" aria-hidden="true">6</span><span class="rung-t"><strong>Hypothèse dominante</strong><span>Meilleure explication disponible, sans preuve décisive</span></span></a></li>
+  <li data-lvl="7"><a href="/rien/echelle/#niveau-7"><span class="rung-n" aria-hidden="true">7</span><span class="rung-t"><strong>Question ouverte</strong><span>Pas de consensus, parfois pas même de méthode</span></span></a></li>
+  <li data-lvl="8"><a href="/rien/echelle/#niveau-8"><span class="rung-n" aria-hidden="true">8</span><span class="rung-t"><strong>Fragile</strong><span>Résultats isolés, non répliqués, annoncés trop vite</span></span></a></li>
+</ol>
+
+<h2 id="questions">Questions fréquentes</h2>
+<div class="faq">
+  <details id="q1" open>
+    <summary>Une théorie scientifique, ce n’est qu’une hypothèse ?</summary>
+    <div class="a"><p>Non. En science, « théorie » désigne un cadre explicatif qui unifie de nombreux faits et a survécu à de nombreux tests : la théorie atomique ou la théorie de l’évolution comptent parmi les connaissances les plus solides dont nous disposons. Une hypothèse, c’est une proposition qu’on s’apprête à tester.</p></div>
+  </details>
+  <details id="q2">
+    <summary>Si la science peut se tromper, pourquoi lui faire confiance ?</summary>
+    <div class="a"><p>Parce qu’elle est le seul système de connaissance organisé pour détecter et corriger ses propres erreurs : réplications, mesures indépendantes, publication des méthodes, critique ouverte. Sa fiabilité ne vient pas de l’infaillibilité des chercheurs, mais de ce dispositif collectif. Et ses erreurs se concentrent dans des zones qu’on sait repérer : résultats isolés, petits échantillons, annonces précipitées.</p></div>
+  </details>
+  <details id="q3">
+    <summary>Les mathématiques, elles, sont-elles certaines à 100 % ?</summary>
+    <div class="a"><p>Un théorème démontré est vrai nécessairement, mais conditionnellement : il découle de ses axiomes. Il ne dit pas si ces axiomes décrivent le monde physique. Par ailleurs, les démonstrations sont vérifiées par des humains, qui se trompent parfois ; la vérification par ordinateur réduit fortement ce risque.</p></div>
+  </details>
+  <details id="q4">
+    <summary>Un résultat à 5 sigmas, c’est 99,99994 % de chances d’avoir raison ?</summary>
+    <div class="a"><p>Non. 5 sigmas signifie qu’une fluctuation due au seul hasard produirait un signal aussi fort environ une fois sur 3,5 millions. Cela ne dit rien des erreurs systématiques (un câble défectueux, un biais d’analyse) ni de la plausibilité de l’hypothèse. C’est une mesure du bruit, pas de la vérité.</p></div>
+  </details>
+  <details id="q5">
+    <summary>Existe-t-il quelque chose dont on soit absolument certain ?</summary>
+    <div class="a"><p>Oui, mais c’est peu informatif : les vérités logiques, les théorèmes (relativement à leurs axiomes), les conventions (la vitesse de la lumière vaut exactement 299 792 458 m/s parce que c’est ainsi qu’on définit le mètre) et, pour de nombreux philosophes, le simple fait qu’il y ait de l’expérience vécue. Tout ce qui concerne le monde observable relève du degré de confiance — parfois immensément élevé.</p></div>
+  </details>
+  <details id="q6">
+    <summary>Une connaissance « établie » peut-elle encore être renversée ?</summary>
+    <div class="a"><p>En principe oui, en pratique très rarement, et presque jamais complètement. L’histoire montre surtout des théories qui deviennent des cas particuliers de théories plus larges : la mécanique de Newton n’a pas été jetée, elle a été délimitée. Ce qui a été mesuré et prédit avec succès reste acquis ; seule l’interprétation profonde peut changer.</p></div>
+  </details>
+</div>
+
+<section class="page-sources" aria-labelledby="sources-page">
+  <h2 id="sources-page">Sources de cette page</h2>
+  <ol>
+    <li id="src-hume1748"><span class="c-auth">Hume, D.</span> (1748). « <span class="c-title">Enquête sur l’entendement humain</span> ». <cite>(An Enquiry Concerning Human Understanding)</cite>.</li>
+    <li id="src-feynman1955"><span class="c-auth">Feynman, R. P.</span> (1955). « <span class="c-title">The Value of Science</span> ». <cite>Engineering and Science, vol. 19, n° 3</cite>. <a href="https://calteches.library.caltech.edu/1575/" rel="noopener">calteches.library.caltech.edu</a></li>
+    <li id="src-lindley1991"><span class="c-auth">Lindley, D. V.</span> (1991). « <span class="c-title">Making Decisions (2e éd.) — « règle de Cromwell »</span> ». <cite>Wiley</cite>.</li>
+    <li id="src-bipm2019"><span class="c-auth">BIPM</span> (2019). « <span class="c-title">Le Système international d’unités (SI), 9e édition</span> ». <cite>Bureau international des poids et mesures</cite>. <a href="https://www.bipm.org/fr/publications/si-brochure" rel="noopener">bipm.org</a></li>
+    <li id="src-descartes1637"><span class="c-auth">Descartes, R.</span> (1637). « <span class="c-title">Discours de la méthode</span> ». <cite>Leyde, Jan Maire</cite>. <a href="https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode" rel="noopener">fr.wikisource.org</a></li>
+    <li id="src-fan2023"><span class="c-auth">Fan, X. ; Myers, T. G. ; Sukra, B. A. D. ; Gabrielse, G.</span> (2023). « <span class="c-title">Measurement of the Electron Magnetic Moment</span> ». <cite>Physical Review Letters, vol. 130, 071801</cite>. <a href="https://doi.org/10.1103/PhysRevLett.130.071801" rel="noopener">doi:10.1103/PhysRevLett.130.071801</a></li>
+    <li id="src-dalrymple2001"><span class="c-auth">Dalrymple, G. B.</span> (2001). « <span class="c-title">The age of the Earth in the twentieth century: a problem (mostly) solved</span> ». <cite>Geological Society, London, Special Publications, vol. 190, p. 205-221</cite>. <a href="https://doi.org/10.1144/GSL.SP.2001.190.01.14" rel="noopener">doi:10.1144/GSL.SP.2001.190.01.14</a></li>
+    <li id="src-touboul2022"><span class="c-auth">Touboul, P. et al. (MICROSCOPE)</span> (2022). « <span class="c-title">MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle</span> ». <cite>Physical Review Letters, vol. 129, 121102</cite>. <a href="https://doi.org/10.1103/PhysRevLett.129.121102" rel="noopener">doi:10.1103/PhysRevLett.129.121102</a></li>
+    <li id="src-gould1981"><span class="c-auth">Gould, S. J.</span> (1981). « <span class="c-title">Evolution as Fact and Theory</span> ». <cite>Discover, mai 1981</cite>. <a href="https://www.stephenjaygould.org/library/gould_fact-and-theory.html" rel="noopener">stephenjaygould.org</a></li>
+    <li id="src-asimov1989"><span class="c-auth">Asimov, I.</span> (1989). « <span class="c-title">The Relativity of Wrong</span> ». <cite>The Skeptical Inquirer, vol. 14, n° 1</cite>. <a href="https://cdn.centerforinquiry.org/wp-content/uploads/sites/29/1989/10/22165236/p46.pdf" rel="noopener">cdn.centerforinquiry.org</a></li>
+    <li id="src-langmuir1989"><span class="c-auth">Langmuir, I. (transcr. R. N. Hall)</span> (1989). « <span class="c-title">Pathological Science (conférence de 1953)</span> ». <cite>Physics Today, vol. 42, n° 10, p. 36-48</cite>. <a href="https://doi.org/10.1063/1.881205" rel="noopener">doi:10.1063/1.881205</a></li>
+  </ol>
+  <p class="all-src"><a href="/rien/sources/">Toutes les sources du site</a></p>
+</section>
+    </div>
+  </div>
+
+  <nav class="wrap pager" aria-label="Pages précédente et suivante">
+    <span></span>
+    <a class="next" href="/rien/echelle/" rel="next"><span class="dir">Suivant →</span><span class="t">L’échelle de la certitude</span></a>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-in">
+    <div class="f-brand">
+      <a class="brand" href="/rien/"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-f" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-f)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+      <p>De quoi la science est-elle sûre à 100 % ?</p>
+    </div>
+    <nav class="f-nav" aria-label="Pied de page">
+      <ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li><li><a href="/rien/glossaire/">Glossaire</a></li><li><a href="/rien/sources/">Sources</a></li><li><a href="/rien/a-propos/">À propos</a></li><li><a href="/rien/feed.xml">Flux Atom</a></li></ul>
+    </nav>
+    <div class="f-sign" id="signature">
+      <p>Textes rédigés par <strong>Claude</strong>, une intelligence artificielle conçue par Anthropic, à la demande d’un éditeur qui a choisi de rester anonyme. Une IA peut se tromper : chaque affirmation importante renvoie à sa source. <a href="https://github.com/ouaisfieu/rien/issues">Signaler une erreur</a>.</p>
+      <p class="muted">Contenu sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Aucun cookie, aucun traceur, aucune ressource tierce.</p>
+    </div>
+  </div>
+</footer>
+<script src="/rien/assets/app.js?v=b0b719ac0c" defer></script>
+</body>
+</html>

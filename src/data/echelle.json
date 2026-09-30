@@ -1,0 +1,116 @@
+[
+  {
+    "n": 0,
+    "name": "Indubitable par construction",
+    "short": "Tautologies, et le constat qu'il y a de l'expérience",
+    "what": "Les vérités logiques (« A ou non-A », « si tous les chats sont gris et que Félix est un chat, Félix est gris ») et le constat cartésien minimal : quelque chose est en train d'être vécu. Elles sont certaines parce qu'elles ne disent presque rien du monde.",
+    "examples": [
+      "Principe de non-contradiction",
+      "« Je pense, donc je suis » (Descartes, 1637)"
+    ],
+    "doubt": "Douter ici revient à abandonner la possibilité même de raisonner. Certains philosophes le font — mais plus aucune science n'est alors possible.",
+    "link": "mathematiques"
+  },
+  {
+    "n": 1,
+    "name": "Démontré",
+    "short": "Théorèmes mathématiques",
+    "what": "Un théorème démontré est vrai de façon nécessaire… à l'intérieur de ses axiomes. Le théorème de Pythagore ne sera jamais réfuté ; ce qui peut être discuté, c'est si l'espace physique est euclidien.",
+    "examples": [
+      "Infinité des nombres premiers (Euclide)",
+      "Théorème des quatre couleurs, vérifié par ordinateur (2005)"
+    ],
+    "doubt": "Le doute porte sur la vérification humaine d'une preuve longue, jamais sur la logique elle-même. La vérification formelle réduit fortement ce risque.",
+    "link": "mathematiques"
+  },
+  {
+    "n": 2,
+    "name": "Exact par définition",
+    "short": "Conventions et constantes fixées",
+    "what": "La vitesse de la lumière vaut exactement 299 792 458 m/s — parce que depuis 1983, c'est elle qui définit le mètre. Depuis 2019, sept constantes sont ainsi fixées. Certitude totale, mais sur une convention.",
+    "examples": [
+      "c = 299 792 458 m/s",
+      "h = 6,626 070 15 × 10⁻³⁴ J·s"
+    ],
+    "doubt": "On ne peut pas « découvrir » que ces valeurs sont fausses. On pourrait découvrir qu'une constante varie dans le temps : ce serait une découverte sur le monde, pas sur la convention.",
+    "link": "physique"
+  },
+  {
+    "n": 3,
+    "name": "Vérifié à l'extrême",
+    "short": "Lois testées à 10⁻¹² ou mieux, dans leur domaine",
+    "what": "Des lois physiques confrontées à des mesures d'une précision vertigineuse, sans faille détectée : électrodynamique quantique, principe d'équivalence, invariance de la vitesse de la lumière, conservation de la charge.",
+    "examples": [
+      "Moment magnétique de l'électron, accord à ~10⁻¹²",
+      "Principe d'équivalence testé à 10⁻¹⁵"
+    ],
+    "doubt": "Pas de remise en cause dans le domaine testé : toute théorie future devra reproduire ces résultats. Le doute porte sur ce qui se passe hors du domaine (énergies extrêmes, gravité quantique).",
+    "link": "physique"
+  },
+  {
+    "n": 4,
+    "name": "Établi",
+    "short": "Faits robustes, par convergence de preuves",
+    "what": "Des conclusions soutenues par de nombreuses lignes de preuve indépendantes (consilience). Les remettre en cause exigerait d'expliquer pourquoi des méthodes sans lien entre elles donnent toutes la même réponse.",
+    "examples": [
+      "La matière est faite d'atomes",
+      "Âge de la Terre ≈ 4,54 milliards d'années",
+      "Ascendance commune des êtres vivants",
+      "Réchauffement actuel d'origine humaine"
+    ],
+    "doubt": "Les chiffres et mécanismes se précisent ; l'énoncé principal ne bouge plus. Le renverser exigerait d'expliquer autrement toutes les lignes de preuve à la fois.",
+    "link": "faits-etablis"
+  },
+  {
+    "n": 5,
+    "name": "Solide, en cours d'affinage",
+    "short": "Modèles quantitatifs bien testés, paramètres encore discutés",
+    "what": "Le cadre fonctionne remarquablement, mais certains chiffres ou mécanismes restent débattus, et des tensions apparaissent parfois entre mesures.",
+    "examples": [
+      "Modèle cosmologique standard (ΛCDM)",
+      "Valeur précise de la sensibilité climatique",
+      "Datation de LUCA vers ~4,2 milliards d'années"
+    ],
+    "doubt": "On s'attend à des révisions de détail, parfois importantes (la tension sur la constante de Hubble en est un exemple). Le cadre général est rarement abandonné d'un coup.",
+    "link": "frontieres"
+  },
+  {
+    "n": 6,
+    "name": "Hypothèse dominante",
+    "short": "Meilleure explication disponible, sans preuve décisive",
+    "what": "L'hypothèse qui rend le mieux compte des données, adoptée comme cadre de travail, mais sans confirmation directe ou avec des concurrentes sérieuses.",
+    "examples": [
+      "La matière noire est faite de particules",
+      "Un « monde à ARN » a précédé l'ADN",
+      "L'énergie noire est une constante"
+    ],
+    "doubt": "Il est raisonnable de parier dessus, et raisonnable de s'attendre à des surprises. Plusieurs de ces hypothèses sont activement mises à l'épreuve en ce moment.",
+    "link": "frontieres"
+  },
+  {
+    "n": 7,
+    "name": "Question ouverte",
+    "short": "Pas de consensus, parfois pas même de méthode",
+    "what": "Les problèmes où plusieurs théories s'affrontent sans qu'aucune expérience n'ait tranché — ou où l'on ne sait pas encore quelle expérience pourrait trancher.",
+    "examples": [
+      "Nature de la conscience",
+      "Origine de la vie",
+      "Gravité quantique",
+      "P = NP ?"
+    ],
+    "doubt": "Ici, l'honnêteté consiste à dire « on ne sait pas », et à décrire précisément ce qu'on ne sait pas.",
+    "link": "frontieres"
+  },
+  {
+    "n": 8,
+    "name": "Fragile",
+    "short": "Résultats isolés, non répliqués, annoncés trop vite",
+    "what": "Une seule étude, un petit échantillon, un effet spectaculaire, un communiqué de presse avant la publication : c'est la zone où se concentrent les erreurs et les fraudes.",
+    "examples": [
+      "Une étude nutritionnelle unique sur 40 personnes",
+      "LK-99, « supraconducteur à température ambiante » (2023)"
+    ],
+    "doubt": "Le doute est la position par défaut. Beaucoup de ces résultats disparaissent ; certains montent l'échelle après réplication.",
+    "link": "erreurs"
+  }
+]

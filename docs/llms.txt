@@ -1,0 +1,19 @@
+# Rien (ou presque)
+
+> Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.
+
+Site statique en français. Textes rédigés par Claude (Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.) Licence : CC BY-SA 4.0.
+
+## Pages
+- [De quoi la science est-elle sûre à 100 % ?](https://ouaisfieu.github.io/rien/) : Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.
+- [L'échelle de la certitude](https://ouaisfieu.github.io/rien/echelle/) : Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.
+- [Logique et mathématiques : la certitude démontrée](https://ouaisfieu.github.io/rien/mathematiques/) : Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.
+- [Les lois physiques : vérifiées jusqu'à la douzième décimale](https://ouaisfieu.github.io/rien/physique/) : Constantes exactes par définition, prédictions vérifiées à douze décimales, Newton « délimité » plutôt que réfuté : ce que la physique sait vraiment.
+- [Les faits établis : quand douter devient déraisonnable](https://ouaisfieu.github.io/rien/faits-etablis/) : Atomes, âge de la Terre, évolution, climat, vaccins : onze faits établis par convergence de preuves indépendantes, et ce qui reste ouvert pour chacun.
+- [Le vivant : ce qu'on sait, ce qu'on ne sait pas définir](https://ouaisfieu.github.io/rien/vivant/) : La biologie sait d'où descendent tous les êtres vivants, mais ne sait ni définir la vie, ni expliquer son origine. Un cas d'école de certitude graduée.
+- [La méthode : fabriquer de la confiance sans jamais atteindre 100 %](https://ouaisfieu.github.io/rien/methode/) : Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.
+- [Quand la science se trompe — et comment elle s'en rend compte](https://ouaisfieu.github.io/rien/erreurs/) : Rayons N, fusion froide, Wakefield, Surgisphere, LK-99, crise de la réplication : où se logent les erreurs scientifiques et comment elles sont corrigées.
+- [Les frontières : ce qu'on ne sait pas (encore)](https://ouaisfieu.github.io/rien/frontieres/) : Matière noire, énergie noire, tension de Hubble, problèmes du millénaire, origine de la vie, conscience : la carte honnête de ce que l'on ignore.
+- [Glossaire](https://ouaisfieu.github.io/rien/glossaire/) : Axiome, induction, réfutabilité, consilience, sigma, valeur p, réplication, biais de publication : les mots de la certitude, définis sans jargon.
+- [Sources et bibliographie](https://ouaisfieu.github.io/rien/sources/) : Publications scientifiques, rapports et ouvrages sur lesquels s'appuie le site, classés par thème, avec leurs identifiants DOI.
+- [À propos de ce site](https://ouaisfieu.github.io/rien/a-propos/) : Qui a écrit ce site (Claude, une IA d'Anthropic), selon quelle méthode, avec quelles limites. Sans cookies ni traceurs, sous licence libre.

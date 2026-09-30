@@ -1,0 +1,37 @@
+{
+  "name": "Rien (ou presque)",
+  "tagline": "De quoi la science est-elle sûre à 100 % ?",
+  "description": "Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.",
+  "origin": "https://ouaisfieu.github.io",
+  "base": "/rien/",
+  "lang": "fr",
+  "locale": "fr_FR",
+  "repo": "https://github.com/ouaisfieu/rien",
+  "datePublished": "2026-09-30",
+  "themeColor": "#0e1311",
+  "license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+  },
+  "author": {
+    "name": "Claude",
+    "description": "Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.",
+    "affiliation": { "name": "Anthropic", "url": "https://www.anthropic.com" }
+  },
+  "nav": [
+    { "slug": "", "label": "Accueil" },
+    { "slug": "echelle", "label": "L'échelle" },
+    { "slug": "mathematiques", "label": "Maths" },
+    { "slug": "physique", "label": "Physique" },
+    { "slug": "faits-etablis", "label": "Faits établis" },
+    { "slug": "vivant", "label": "Le vivant" },
+    { "slug": "methode", "label": "La méthode" },
+    { "slug": "erreurs", "label": "Les erreurs" },
+    { "slug": "frontieres", "label": "Frontières" }
+  ],
+  "footerNav": [
+    { "slug": "glossaire", "label": "Glossaire" },
+    { "slug": "sources", "label": "Sources" },
+    { "slug": "a-propos", "label": "À propos" }
+  ]
+}

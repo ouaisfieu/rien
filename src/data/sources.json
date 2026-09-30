@@ -1,0 +1,731 @@
+[
+ {
+  "id": "feynman1955",
+  "group": "Épistémologie et méthode",
+  "type": "Article",
+  "authors": "Feynman, R. P.",
+  "title": "The Value of Science",
+  "container": "Engineering and Science, vol. 19, n° 3",
+  "year": 1955,
+  "url": "https://calteches.library.caltech.edu/1575/"
+ },
+ {
+  "id": "asimov1989",
+  "group": "Épistémologie et méthode",
+  "type": "Article",
+  "authors": "Asimov, I.",
+  "title": "The Relativity of Wrong",
+  "container": "The Skeptical Inquirer, vol. 14, n° 1",
+  "year": 1989,
+  "url": "https://cdn.centerforinquiry.org/wp-content/uploads/sites/29/1989/10/22165236/p46.pdf"
+ },
+ {
+  "id": "gould1981",
+  "group": "Épistémologie et méthode",
+  "type": "Article",
+  "authors": "Gould, S. J.",
+  "title": "Evolution as Fact and Theory",
+  "container": "Discover, mai 1981",
+  "year": 1981,
+  "url": "https://www.stephenjaygould.org/library/gould_fact-and-theory.html"
+ },
+ {
+  "id": "hume1748",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Hume, D.",
+  "title": "Enquête sur l'entendement humain",
+  "container": "(An Enquiry Concerning Human Understanding)",
+  "year": 1748
+ },
+ {
+  "id": "russell1912",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Russell, B.",
+  "title": "The Problems of Philosophy (chap. VI, « On Induction »)",
+  "container": "Williams & Norgate",
+  "year": 1912,
+  "url": "https://www.gutenberg.org/ebooks/5827"
+ },
+ {
+  "id": "popper1934",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Popper, K. R.",
+  "title": "Logik der Forschung",
+  "container": "trad. fr. La Logique de la découverte scientifique, Payot, 1973",
+  "year": 1934
+ },
+ {
+  "id": "duhem1906",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Duhem, P.",
+  "title": "La Théorie physique : son objet, sa structure",
+  "container": "Chevalier & Rivière",
+  "year": 1906
+ },
+ {
+  "id": "quine1951",
+  "group": "Épistémologie et méthode",
+  "type": "ScholarlyArticle",
+  "authors": "Quine, W. V. O.",
+  "title": "Two Dogmas of Empiricism",
+  "container": "The Philosophical Review, vol. 60, n° 1, p. 20-43",
+  "year": 1951,
+  "doi": "10.2307/2181906"
+ },
+ {
+  "id": "kuhn1962",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Kuhn, T. S.",
+  "title": "The Structure of Scientific Revolutions",
+  "container": "University of Chicago Press (trad. fr. Flammarion, 1983)",
+  "year": 1962
+ },
+ {
+  "id": "descartes1637",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Descartes, R.",
+  "title": "Discours de la méthode",
+  "container": "Leyde, Jan Maire",
+  "year": 1637,
+  "url": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode"
+ },
+ {
+  "id": "lindley1991",
+  "group": "Épistémologie et méthode",
+  "type": "Book",
+  "authors": "Lindley, D. V.",
+  "title": "Making Decisions (2e éd.) — « règle de Cromwell »",
+  "container": "Wiley",
+  "year": 1991
+ },
+ {
+  "id": "merton1942",
+  "group": "Épistémologie et méthode",
+  "type": "ScholarlyArticle",
+  "authors": "Merton, R. K.",
+  "title": "A Note on Science and Democracy",
+  "container": "Journal of Legal and Political Sociology, vol. 1, p. 115-126",
+  "year": 1942
+ },
+ {
+  "id": "ipcc2021",
+  "group": "Épistémologie et méthode",
+  "type": "Report",
+  "authors": "GIEC / IPCC, Groupe de travail I",
+  "title": "Climate Change 2021: The Physical Science Basis — Summary for Policymakers (AR6)",
+  "container": "Cambridge University Press",
+  "year": 2021,
+  "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf"
+ },
+ {
+  "id": "godel1931",
+  "group": "Logique et mathématiques",
+  "type": "ScholarlyArticle",
+  "authors": "Gödel, K.",
+  "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+  "container": "Monatshefte für Mathematik und Physik, vol. 38, p. 173-198",
+  "year": 1931,
+  "doi": "10.1007/BF01700692"
+ },
+ {
+  "id": "appel1977",
+  "group": "Logique et mathématiques",
+  "type": "ScholarlyArticle",
+  "authors": "Appel, K. ; Haken, W.",
+  "title": "Every planar map is four colorable. Part I: Discharging",
+  "container": "Illinois Journal of Mathematics, vol. 21, n° 3, p. 429-490",
+  "year": 1977,
+  "doi": "10.1215/ijm/1256049011"
+ },
+ {
+  "id": "gonthier2008",
+  "group": "Logique et mathématiques",
+  "type": "ScholarlyArticle",
+  "authors": "Gonthier, G.",
+  "title": "Formal Proof — The Four-Color Theorem",
+  "container": "Notices of the AMS, vol. 55, n° 11, p. 1382-1393",
+  "year": 2008,
+  "url": "https://www.ams.org/notices/200811/tx081101382p.pdf"
+ },
+ {
+  "id": "hales2017",
+  "group": "Logique et mathématiques",
+  "type": "ScholarlyArticle",
+  "authors": "Hales, T. et al.",
+  "title": "A Formal Proof of the Kepler Conjecture",
+  "container": "Forum of Mathematics, Pi, vol. 5, e2",
+  "year": 2017,
+  "doi": "10.1017/fmp.2017.1"
+ },
+ {
+  "id": "wiles1995",
+  "group": "Logique et mathématiques",
+  "type": "ScholarlyArticle",
+  "authors": "Wiles, A.",
+  "title": "Modular elliptic curves and Fermat's Last Theorem",
+  "container": "Annals of Mathematics, vol. 141, n° 3, p. 443-551",
+  "year": 1995,
+  "doi": "10.2307/2118559"
+ },
+ {
+  "id": "scholze2018",
+  "group": "Logique et mathématiques",
+  "type": "Report",
+  "authors": "Scholze, P. ; Stix, J.",
+  "title": "Why abc is still a conjecture",
+  "container": "Note de recherche",
+  "year": 2018,
+  "url": "https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf"
+ },
+ {
+  "id": "castelvecchi2021",
+  "group": "Logique et mathématiques",
+  "type": "NewsArticle",
+  "authors": "Castelvecchi, D.",
+  "title": "Mathematicians welcome computer-assisted proof in 'grand unification' theory",
+  "container": "Nature, vol. 595, p. 18-19",
+  "year": 2021,
+  "doi": "10.1038/d41586-021-01627-2"
+ },
+ {
+  "id": "clay",
+  "group": "Logique et mathématiques",
+  "type": "WebPage",
+  "authors": "Clay Mathematics Institute",
+  "title": "The Millennium Prize Problems",
+  "container": "claymath.org",
+  "year": 2000,
+  "url": "https://www.claymath.org/millennium-problems/"
+ },
+ {
+  "id": "bipm2019",
+  "group": "Physique",
+  "type": "Report",
+  "authors": "BIPM",
+  "title": "Le Système international d'unités (SI), 9e édition",
+  "container": "Bureau international des poids et mesures",
+  "year": 2019,
+  "url": "https://www.bipm.org/fr/publications/si-brochure"
+ },
+ {
+  "id": "fan2023",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Fan, X. ; Myers, T. G. ; Sukra, B. A. D. ; Gabrielse, G.",
+  "title": "Measurement of the Electron Magnetic Moment",
+  "container": "Physical Review Letters, vol. 130, 071801",
+  "year": 2023,
+  "doi": "10.1103/PhysRevLett.130.071801"
+ },
+ {
+  "id": "morel2020",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Morel, L. ; Yao, Z. ; Cladé, P. ; Guellati-Khélifa, S.",
+  "title": "Determination of the fine-structure constant with an accuracy of 81 parts per trillion",
+  "container": "Nature, vol. 588, p. 61-65",
+  "year": 2020,
+  "doi": "10.1038/s41586-020-2964-7"
+ },
+ {
+  "id": "muong2_2025",
+  "group": "Physique",
+  "type": "WebPage",
+  "authors": "Fermilab — Collaboration Muon g-2",
+  "title": "Muon g-2 announces most precise measurement of the magnetic anomaly of the muon",
+  "container": "Fermilab News, 3 juin 2025",
+  "year": 2025,
+  "url": "https://news.fnal.gov/2025/06/muon-g-2-most-precise-measurement-of-muon-magnetic-anomaly/"
+ },
+ {
+  "id": "touboul2022",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Touboul, P. et al. (MICROSCOPE)",
+  "title": "MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle",
+  "container": "Physical Review Letters, vol. 129, 121102",
+  "year": 2022,
+  "doi": "10.1103/PhysRevLett.129.121102"
+ },
+ {
+  "id": "ligo2017",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Abbott, B. P. et al. (LIGO, Virgo, Fermi-GBM, INTEGRAL)",
+  "title": "Gravitational Waves and Gamma-Rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A",
+  "container": "The Astrophysical Journal Letters, vol. 848, L13",
+  "year": 2017,
+  "doi": "10.3847/2041-8213/aa920c"
+ },
+ {
+  "id": "sk2020",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Takenaka, A. et al. (Super-Kamiokande)",
+  "title": "Search for proton decay via p → e⁺π⁰ and p → μ⁺π⁰ with an enlarged fiducial volume in Super-Kamiokande I-IV",
+  "container": "Physical Review D, vol. 102, 112011",
+  "year": 2020,
+  "doi": "10.1103/PhysRevD.102.112011"
+ },
+ {
+  "id": "wang2002",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Wang, G. M. ; Sevick, E. M. ; Mittag, E. ; Searles, D. J. ; Evans, D. J.",
+  "title": "Experimental Demonstration of Violations of the Second Law of Thermodynamics for Small Systems and Short Time Scales",
+  "container": "Physical Review Letters, vol. 89, 050601",
+  "year": 2002,
+  "doi": "10.1103/PhysRevLett.89.050601"
+ },
+ {
+  "id": "ashby2003",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Ashby, N.",
+  "title": "Relativity in the Global Positioning System",
+  "container": "Living Reviews in Relativity, vol. 6, 1",
+  "year": 2003,
+  "doi": "10.12942/lrr-2003-1"
+ },
+ {
+  "id": "planck2018",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Planck Collaboration",
+  "title": "Planck 2018 results. VI. Cosmological parameters",
+  "container": "Astronomy & Astrophysics, vol. 641, A6",
+  "year": 2020,
+  "doi": "10.1051/0004-6361/201833910"
+ },
+ {
+  "id": "atlas2012",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "ATLAS Collaboration",
+  "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+  "container": "Physics Letters B, vol. 716, p. 1-29",
+  "year": 2012,
+  "doi": "10.1016/j.physletb.2012.08.020"
+ },
+ {
+  "id": "opera2012",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Adam, T. et al. (OPERA)",
+  "title": "Measurement of the neutrino velocity with the OPERA detector in the CNGS beam (version corrigée)",
+  "container": "Journal of High Energy Physics, 2012, 93",
+  "year": 2012,
+  "doi": "10.1007/JHEP10(2012)093"
+ },
+ {
+  "id": "bicep2015",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "BICEP2/Keck Array & Planck Collaborations",
+  "title": "Joint Analysis of BICEP2/Keck Array and Planck Data",
+  "container": "Physical Review Letters, vol. 114, 101301",
+  "year": 2015,
+  "doi": "10.1103/PhysRevLett.114.101301"
+ },
+ {
+  "id": "riess1998",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Riess, A. G. et al.",
+  "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+  "container": "The Astronomical Journal, vol. 116, p. 1009-1038",
+  "year": 1998,
+  "doi": "10.1086/300499"
+ },
+ {
+  "id": "superk1998",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Fukuda, Y. et al. (Super-Kamiokande)",
+  "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+  "container": "Physical Review Letters, vol. 81, p. 1562-1567",
+  "year": 1998,
+  "doi": "10.1103/PhysRevLett.81.1562"
+ },
+ {
+  "id": "wu1957",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Wu, C. S. et al.",
+  "title": "Experimental Test of Parity Conservation in Beta Decay",
+  "container": "Physical Review, vol. 105, p. 1413-1415",
+  "year": 1957,
+  "doi": "10.1103/PhysRev.105.1413"
+ },
+ {
+  "id": "shechtman1984",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "Shechtman, D. ; Blech, I. ; Gratias, D. ; Cahn, J. W.",
+  "title": "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry",
+  "container": "Physical Review Letters, vol. 53, p. 1951-1953",
+  "year": 1984,
+  "doi": "10.1103/PhysRevLett.53.1951"
+ },
+ {
+  "id": "garisto2023",
+  "group": "Physique",
+  "type": "NewsArticle",
+  "authors": "Garisto, D.",
+  "title": "LK-99 isn't a superconductor — how science sleuths solved the mystery",
+  "container": "Nature, vol. 620, p. 705-706",
+  "year": 2023,
+  "doi": "10.1038/d41586-023-02585-7"
+ },
+ {
+  "id": "desi2025",
+  "group": "Physique",
+  "type": "ScholarlyArticle",
+  "authors": "DESI Collaboration",
+  "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+  "container": "arXiv:2503.14738",
+  "year": 2025,
+  "url": "https://arxiv.org/abs/2503.14738"
+ },
+ {
+  "id": "perrin1913",
+  "group": "Faits établis",
+  "type": "Book",
+  "authors": "Perrin, J.",
+  "title": "Les Atomes",
+  "container": "Félix Alcan",
+  "year": 1913
+ },
+ {
+  "id": "eigler1990",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Eigler, D. M. ; Schweizer, E. K.",
+  "title": "Positioning single atoms with a scanning tunnelling microscope",
+  "container": "Nature, vol. 344, p. 524-526",
+  "year": 1990,
+  "doi": "10.1038/344524a0"
+ },
+ {
+  "id": "patterson1956",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Patterson, C.",
+  "title": "Age of meteorites and the earth",
+  "container": "Geochimica et Cosmochimica Acta, vol. 10, p. 230-237",
+  "year": 1956,
+  "doi": "10.1016/0016-7037(56)90036-9"
+ },
+ {
+  "id": "dalrymple2001",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Dalrymple, G. B.",
+  "title": "The age of the Earth in the twentieth century: a problem (mostly) solved",
+  "container": "Geological Society, London, Special Publications, vol. 190, p. 205-221",
+  "year": 2001,
+  "doi": "10.1144/GSL.SP.2001.190.01.14"
+ },
+ {
+  "id": "theobald2010",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Theobald, D. L.",
+  "title": "A formal test of the theory of universal common ancestry",
+  "container": "Nature, vol. 465, p. 219-222",
+  "year": 2010,
+  "doi": "10.1038/nature09014"
+ },
+ {
+  "id": "yonezawa2010",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Yonezawa, T. ; Hasegawa, M.",
+  "title": "Was the universal common ancestry proved?",
+  "container": "Nature, vol. 468, E9",
+  "year": 2010,
+  "doi": "10.1038/nature09482"
+ },
+ {
+  "id": "avery1944",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Avery, O. T. ; MacLeod, C. M. ; McCarty, M.",
+  "title": "Studies on the chemical nature of the substance inducing transformation of pneumococcal types",
+  "container": "Journal of Experimental Medicine, vol. 79, n° 2, p. 137-158",
+  "year": 1944,
+  "doi": "10.1084/jem.79.2.137"
+ },
+ {
+  "id": "doll1950",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Doll, R. ; Hill, A. B.",
+  "title": "Smoking and carcinoma of the lung: preliminary report",
+  "container": "British Medical Journal, vol. 2, n° 4682, p. 739-748",
+  "year": 1950,
+  "doi": "10.1136/bmj.2.4682.739"
+ },
+ {
+  "id": "madsen2002",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Madsen, K. M. et al.",
+  "title": "A population-based study of measles, mumps, and rubella vaccination and autism",
+  "container": "New England Journal of Medicine, vol. 347, p. 1477-1482",
+  "year": 2002,
+  "doi": "10.1056/NEJMoa021134"
+ },
+ {
+  "id": "hviid2019",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Hviid, A. ; Hansen, J. V. ; Frisch, M. ; Melbye, M.",
+  "title": "Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study",
+  "container": "Annals of Internal Medicine, vol. 170, n° 8, p. 513-520",
+  "year": 2019,
+  "doi": "10.7326/M18-2101"
+ },
+ {
+  "id": "marshall1984",
+  "group": "Faits établis",
+  "type": "ScholarlyArticle",
+  "authors": "Marshall, B. J. ; Warren, J. R.",
+  "title": "Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration",
+  "container": "The Lancet, vol. 323, n° 8390, p. 1311-1315",
+  "year": 1984,
+  "doi": "10.1016/S0140-6736(84)91816-6"
+ },
+ {
+  "id": "moody2024",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Moody, E. R. R. et al.",
+  "title": "The nature of the last universal common ancestor and its impact on the early Earth system",
+  "container": "Nature Ecology & Evolution, vol. 8, p. 1654-1666",
+  "year": 2024,
+  "doi": "10.1038/s41559-024-02461-1"
+ },
+ {
+  "id": "joyce1994",
+  "group": "Le vivant",
+  "type": "Book",
+  "authors": "Joyce, G. F.",
+  "title": "Foreword",
+  "container": "in Deamer, D. W. & Fleischaker, G. R. (dir.), Origins of Life: The Central Concepts, Jones & Bartlett",
+  "year": 1994
+ },
+ {
+  "id": "nasa_def",
+  "group": "Le vivant",
+  "type": "WebPage",
+  "authors": "NASA Astrobiology Program",
+  "title": "Forming a Definition for Life",
+  "container": "astrobiology.nasa.gov",
+  "year": 2013,
+  "url": "https://astrobiology.nasa.gov/news/forming-a-definition-for-life/"
+ },
+ {
+  "id": "cleland2019",
+  "group": "Le vivant",
+  "type": "Book",
+  "authors": "Cleland, C. E.",
+  "title": "The Quest for a Universal Theory of Life: Searching for Life As We Don't Know It",
+  "container": "Cambridge University Press",
+  "year": 2019
+ },
+ {
+  "id": "maturana1980",
+  "group": "Le vivant",
+  "type": "Book",
+  "authors": "Maturana, H. R. ; Varela, F. J.",
+  "title": "Autopoiesis and Cognition: The Realization of the Living",
+  "container": "Reidel",
+  "year": 1980
+ },
+ {
+  "id": "patel2015",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Patel, B. H. ; Percivalle, C. ; Ritson, D. J. ; Duffy, C. D. ; Sutherland, J. D.",
+  "title": "Common origins of RNA, protein and lipid precursors in a cyanosulfidic protometabolism",
+  "container": "Nature Chemistry, vol. 7, p. 301-307",
+  "year": 2015,
+  "doi": "10.1038/nchem.2202"
+ },
+ {
+  "id": "hutchison2016",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Hutchison, C. A. et al.",
+  "title": "Design and synthesis of a minimal bacterial genome",
+  "container": "Science, vol. 351, aad6253",
+  "year": 2016,
+  "doi": "10.1126/science.aad6253"
+ },
+ {
+  "id": "kriegman2020",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Kriegman, S. ; Blackiston, D. ; Levin, M. ; Bongard, J.",
+  "title": "A scalable pipeline for designing reconfigurable organisms",
+  "container": "PNAS, vol. 117, n° 4, p. 1853-1859",
+  "year": 2020,
+  "doi": "10.1073/pnas.1910837117"
+ },
+ {
+  "id": "kriegman2021",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Kriegman, S. ; Blackiston, D. ; Levin, M. ; Bongard, J.",
+  "title": "Kinematic self-replication in reconfigurable organisms",
+  "container": "PNAS, vol. 118, n° 49, e2112672118",
+  "year": 2021,
+  "doi": "10.1073/pnas.2112672118"
+ },
+ {
+  "id": "sharma2023",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Sharma, A. ; Czégel, D. ; Lachmann, M. ; Kempes, C. P. ; Walker, S. I. ; Cronin, L.",
+  "title": "Assembly theory explains and quantifies selection and evolution",
+  "container": "Nature, vol. 622, p. 321-328",
+  "year": 2023,
+  "doi": "10.1038/s41586-023-06600-9"
+ },
+ {
+  "id": "cogitate2025",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Cogitate Consortium et al.",
+  "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+  "container": "Nature, vol. 642, p. 133-142",
+  "year": 2025,
+  "doi": "10.1038/s41586-025-08888-1"
+ },
+ {
+  "id": "chalmers1995",
+  "group": "Le vivant",
+  "type": "ScholarlyArticle",
+  "authors": "Chalmers, D. J.",
+  "title": "Facing Up to the Problem of Consciousness",
+  "container": "Journal of Consciousness Studies, vol. 2, n° 3, p. 200-219",
+  "year": 1995,
+  "url": "https://consc.net/papers/facing.pdf"
+ },
+ {
+  "id": "nydeclaration2024",
+  "group": "Le vivant",
+  "type": "WebPage",
+  "authors": "Andrews, K. ; Birch, J. ; Sebo, J. et al.",
+  "title": "The New York Declaration on Animal Consciousness",
+  "container": "New York University",
+  "year": 2024,
+  "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration"
+ },
+ {
+  "id": "langmuir1989",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "Article",
+  "authors": "Langmuir, I. (transcr. R. N. Hall)",
+  "title": "Pathological Science (conférence de 1953)",
+  "container": "Physics Today, vol. 42, n° 10, p. 36-48",
+  "year": 1989,
+  "doi": "10.1063/1.881205"
+ },
+ {
+  "id": "osc2015",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Open Science Collaboration",
+  "title": "Estimating the reproducibility of psychological science",
+  "container": "Science, vol. 349, n° 6251, aac4716",
+  "year": 2015,
+  "doi": "10.1126/science.aac4716"
+ },
+ {
+  "id": "ioannidis2005",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Ioannidis, J. P. A.",
+  "title": "Why Most Published Research Findings Are False",
+  "container": "PLoS Medicine, vol. 2, n° 8, e124",
+  "year": 2005,
+  "doi": "10.1371/journal.pmed.0020124"
+ },
+ {
+  "id": "turner2008",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Turner, E. H. et al.",
+  "title": "Selective Publication of Antidepressant Trials and Its Influence on Apparent Efficacy",
+  "container": "New England Journal of Medicine, vol. 358, p. 252-260",
+  "year": 2008,
+  "doi": "10.1056/NEJMsa065779"
+ },
+ {
+  "id": "scheel2021",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Scheel, A. M. ; Schijen, M. R. M. J. ; Lakens, D.",
+  "title": "An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports",
+  "container": "Advances in Methods and Practices in Psychological Science, vol. 4, n° 2",
+  "year": 2021,
+  "doi": "10.1177/25152459211007467"
+ },
+ {
+  "id": "bik2016",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Bik, E. M. ; Casadevall, A. ; Fang, F. C.",
+  "title": "The Prevalence of Inappropriate Image Duplication in Biomedical Research Publications",
+  "container": "mBio, vol. 7, n° 3, e00809-16",
+  "year": 2016,
+  "doi": "10.1128/mBio.00809-16"
+ },
+ {
+  "id": "deer2011",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "ScholarlyArticle",
+  "authors": "Deer, B.",
+  "title": "How the case against the MMR vaccine was fixed",
+  "container": "BMJ, vol. 342, c5347",
+  "year": 2011,
+  "doi": "10.1136/bmj.c5347"
+ },
+ {
+  "id": "rw_surgisphere",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "WebPage",
+  "authors": "Retraction Watch",
+  "title": "Lancet, NEJM retract controversial COVID-19 studies based on Surgisphere data",
+  "container": "retractionwatch.com, 4 juin 2020",
+  "year": 2020,
+  "url": "https://retractionwatch.com/2020/06/04/lancet-retracts-controversial-hydroxychloroquine-study/"
+ },
+ {
+  "id": "rw_db",
+  "group": "Erreurs, fraudes et autocorrection",
+  "type": "WebPage",
+  "authors": "Center for Scientific Integrity",
+  "title": "Retraction Watch Database",
+  "container": "retractionwatch.com",
+  "year": 2026,
+  "url": "https://retractionwatch.com/"
+ },
+ {
+  "id": "annexes",
+  "group": "Dossiers préparatoires",
+  "type": "Report",
+  "authors": "Dossiers de recherche du projet « rien »",
+  "title": "Ratés historiques de la science ; Erreurs scientifiques contemporaines majeures ; Énigmes scientifiques actuelles ; Rapport prospectif ; Origines de la vie ; Concept et nature de la vie ; Explications scientifiques de la vie ; Théories de la conscience ; Biologie synthétique",
+  "container": "Documents de travail non publiés, compilés en 2026 à partir de la littérature citée",
+  "year": 2026
+ }
+]

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+  <title>Rien (ou presque)</title>
+  <subtitle>De quoi la science est-elle sûre à 100 % ?</subtitle>
+  <link href="https://ouaisfieu.github.io/rien/feed.xml" rel="self"/>
+  <link href="https://ouaisfieu.github.io/rien/"/>
+  <id>https://ouaisfieu.github.io/rien/</id>
+  <updated>2026-09-30T00:00:00.000Z</updated>
+  <author><name>Claude</name></author>
+  <rights>CC BY-SA 4.0</rights>
+  <entry>
+    <title>De quoi la science est-elle sûre à 100 % ?</title>
+    <link href="https://ouaisfieu.github.io/rien/"/>
+    <id>https://ouaisfieu.github.io/rien/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Au sens strict, presque rien d'empirique n'est certain à 100 %. Mais la science sait énormément, à un degré où douter devient déraisonnable. Explications.</summary>
+  </entry>
+  <entry>
+    <title>L'échelle de la certitude</title>
+    <link href="https://ouaisfieu.github.io/rien/echelle/"/>
+    <id>https://ouaisfieu.github.io/rien/echelle/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Neuf niveaux de certitude, du démontré au fragile, avec des exemples et ce que « douter » voudrait dire à chaque cran. Un outil pour lire la science.</summary>
+  </entry>
+  <entry>
+    <title>Logique et mathématiques : la certitude démontrée</title>
+    <link href="https://ouaisfieu.github.io/rien/mathematiques/"/>
+    <id>https://ouaisfieu.github.io/rien/mathematiques/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.</summary>
+  </entry>
+  <entry>
+    <title>Les lois physiques : vérifiées jusqu'à la douzième décimale</title>
+    <link href="https://ouaisfieu.github.io/rien/physique/"/>
+    <id>https://ouaisfieu.github.io/rien/physique/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Constantes exactes par définition, prédictions vérifiées à douze décimales, Newton « délimité » plutôt que réfuté : ce que la physique sait vraiment.</summary>
+  </entry>
+  <entry>
+    <title>Les faits établis : quand douter devient déraisonnable</title>
+    <link href="https://ouaisfieu.github.io/rien/faits-etablis/"/>
+    <id>https://ouaisfieu.github.io/rien/faits-etablis/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Atomes, âge de la Terre, évolution, climat, vaccins : onze faits établis par convergence de preuves indépendantes, et ce qui reste ouvert pour chacun.</summary>
+  </entry>
+  <entry>
+    <title>Le vivant : ce qu'on sait, ce qu'on ne sait pas définir</title>
+    <link href="https://ouaisfieu.github.io/rien/vivant/"/>
+    <id>https://ouaisfieu.github.io/rien/vivant/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>La biologie sait d'où descendent tous les êtres vivants, mais ne sait ni définir la vie, ni expliquer son origine. Un cas d'école de certitude graduée.</summary>
+  </entry>
+  <entry>
+    <title>La méthode : fabriquer de la confiance sans jamais atteindre 100 %</title>
+    <link href="https://ouaisfieu.github.io/rien/methode/"/>
+    <id>https://ouaisfieu.github.io/rien/methode/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Induction, réfutabilité, Duhem-Quine, sigmas, probabilités, réplication : comment la science fabrique de la confiance sans jamais viser le 100 %.</summary>
+  </entry>
+  <entry>
+    <title>Quand la science se trompe — et comment elle s'en rend compte</title>
+    <link href="https://ouaisfieu.github.io/rien/erreurs/"/>
+    <id>https://ouaisfieu.github.io/rien/erreurs/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Rayons N, fusion froide, Wakefield, Surgisphere, LK-99, crise de la réplication : où se logent les erreurs scientifiques et comment elles sont corrigées.</summary>
+  </entry>
+  <entry>
+    <title>Les frontières : ce qu'on ne sait pas (encore)</title>
+    <link href="https://ouaisfieu.github.io/rien/frontieres/"/>
+    <id>https://ouaisfieu.github.io/rien/frontieres/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Matière noire, énergie noire, tension de Hubble, problèmes du millénaire, origine de la vie, conscience : la carte honnête de ce que l'on ignore.</summary>
+  </entry>
+  <entry>
+    <title>Glossaire</title>
+    <link href="https://ouaisfieu.github.io/rien/glossaire/"/>
+    <id>https://ouaisfieu.github.io/rien/glossaire/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Axiome, induction, réfutabilité, consilience, sigma, valeur p, réplication, biais de publication : les mots de la certitude, définis sans jargon.</summary>
+  </entry>
+  <entry>
+    <title>Sources et bibliographie</title>
+    <link href="https://ouaisfieu.github.io/rien/sources/"/>
+    <id>https://ouaisfieu.github.io/rien/sources/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-09-30T00:00:00.000Z</updated>
+    <summary>Publications scientifiques, rapports et ouvrages sur lesquels s'appuie le site, classés par thème, avec leurs identifiants DOI.</summary>
+  </entry>
+</feed>

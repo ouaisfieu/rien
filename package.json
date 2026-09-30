@@ -1,0 +1,15 @@
+{
+  "name": "rien",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rien (ou presque) — site statique de vulgarisation : de quoi la science est-elle sûre à 100 % ?",
+  "type": "module",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node tools/serve.mjs",
+    "dev": "node build.mjs && node tools/serve.mjs",
+    "images": "node tools/og.mjs && node build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

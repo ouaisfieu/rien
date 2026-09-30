@@ -1,0 +1,109 @@
+---json
+{
+  "slug": "mathematiques",
+  "order": 2,
+  "title": "Logique et mathématiques : la certitude démontrée",
+  "navLabel": "Logique et mathématiques",
+  "h1": "Logique et mathématiques&nbsp;: la certitude démontrée… avec astérisques",
+  "seoTitle": "Les mathématiques sont-elles certaines à 100 % ?",
+  "description": "Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.",
+  "kicker": "Niveaux 0 et 1",
+  "lead": "Les mathématiques sont le seul domaine où l'on démontre au lieu d'observer. C'est ce qui leur donne une certitude unique — et c'est aussi ce qui en fixe les limites.",
+  "levels": [
+    0,
+    1
+  ],
+  "about": [
+    {
+      "name": "Démonstration mathématique",
+      "wiki": "Démonstration_(logique_et_mathématiques)"
+    },
+    {
+      "name": "Théorèmes d'incomplétude de Gödel",
+      "wiki": "Théorèmes_d'incomplétude_de_Gödel"
+    },
+    {
+      "name": "Vérification formelle",
+      "wiki": "en:Formal_verification"
+    }
+  ],
+  "mentions": [
+    {
+      "name": "Théorème des quatre couleurs",
+      "wiki": "Théorème_des_quatre_couleurs"
+    },
+    {
+      "name": "Conjecture de Kepler",
+      "wiki": "Conjecture_de_Kepler"
+    },
+    {
+      "name": "Dernier théorème de Fermat",
+      "wiki": "Dernier_théorème_de_Fermat"
+    }
+  ],
+  "keywords": [
+    "démonstration",
+    "axiomes",
+    "Gödel",
+    "incomplétude",
+    "vérification formelle",
+    "Lean",
+    "Coq",
+    "certitude mathématique"
+  ]
+}
+---
+<h2 id="preuve">Une preuve n'est pas une observation</h2>
+<p>Qu'il existe une infinité de nombres premiers, Euclide l'a établi il y a plus de deux mille ans, et aucune découverte ne pourra jamais le remettre en cause. Pourquoi une telle assurance, alors qu'aucune loi physique n'y a droit ?</p>
+<p>Parce qu'une {{g:demonstration}} ne s'appuie sur aucune observation. Elle part d'énoncés admis — les {{g:axiome|axiomes}} — et en tire des conséquences au moyen de règles logiques explicites. Si les règles sont respectées, la conclusion n'est pas « très probablement » vraie : elle est <em>nécessairement</em> vraie, dans ce cadre. C'est une {{g:deduction}}, et non une {{g:induction}}.</p>
+<p>Cette certitude a un prix, que la philosophie connaît depuis longtemps : une déduction ne contient rien que ses prémisses ne contenaient déjà. Elle explicite, elle ne découvre pas le monde. C'est pour cela que les mathématiques occupent les {{lvl:0|niveaux 0}} et {{lvl:1}} de notre échelle, et pas le sommet d'une échelle « du monde ».</p>
+
+<div class="box key">
+  <p class="box-t">Le cas exemplaire de la géométrie</p>
+  <p>Le théorème de Pythagore est démontré depuis l'Antiquité, dans la géométrie d'Euclide. Mais l'espace physique est-il euclidien ? Ça, c'est une question empirique — et la relativité générale a montré qu'il ne l'est pas exactement : il est courbé par la masse. Le théorème n'est pas devenu faux pour autant. C'est son <em>application</em> au monde qui a changé de statut. Toute la différence entre certitude mathématique et savoir scientifique tient dans cet exemple.</p>
+</div>
+
+<h2 id="axiomes">Premier astérisque : les axiomes</h2>
+<p>Un théorème dit : « si ces axiomes, alors cette conclusion ». Sa vérité est conditionnelle. En changeant un seul axiome — celui des parallèles —, les mathématiciens du XIX<sup>e</sup> siècle ont obtenu des géométries non euclidiennes tout aussi cohérentes, où la somme des angles d'un triangle n'est pas 180°.</p>
+<p>Pour l'essentiel des mathématiques actuelles, le socle est une théorie des ensembles appelée ZFC. Personne n'y a trouvé de contradiction en un siècle d'usage intensif. Mais peut-on <em>démontrer</em> qu'il n'y en a aucune ? C'est là qu'intervient Gödel.</p>
+
+<h2 id="godel">Deuxième astérisque : Gödel</h2>
+<p>En 1931, Kurt Gödel publie deux résultats qui bouleversent la logique{{cite:godel1931}}. Ils sont souvent mal résumés ; voici ce qu'ils disent, en substance :</p>
+<ol>
+  <li>Dans tout système formel cohérent assez riche pour exprimer l'arithmétique, il existe des énoncés qu'on ne peut <strong>ni démontrer ni réfuter</strong> à l'intérieur du système.</li>
+  <li>Un tel système ne peut pas démontrer <strong>sa propre cohérence</strong> — sauf s'il est incohérent.</li>
+</ol>
+<p>Ce que Gödel ne dit <em>pas</em> : que les mathématiques sont incertaines, ou que « tout est relatif ». Les théorèmes démontrés restent démontrés. Ce qu'il établit, c'est une limite : on ne pourra jamais tout démontrer, et la cohérence du socle ne se prouve pas depuis l'intérieur. Le fondement ultime repose sur une confiance — extrêmement bien étayée par l'usage, mais une confiance.</p>
+<p class="pull">Ironie du sort : l'incomplétude elle-même est un <em>théorème</em>. On est certain, par démonstration, qu'on ne peut pas tout démontrer.</p>
+
+<h2 id="humains">Troisième astérisque : les humains vérifient les preuves</h2>
+<p>La logique ne se trompe pas ; les mathématiciens, si. Et plus une démonstration est longue, plus le risque qu'une erreur passe inaperçue augmente.</p>
+<ol class="timeline">
+  <li><span class="when">1879</span><span class="what">Kempe « démontre » le théorème des quatre couleurs.</span><p>La preuve est acceptée par la communauté… jusqu'à ce que Heawood y trouve une faille en 1890. Onze ans de fausse certitude.</p></li>
+  <li><span class="when">1976</span><span class="what">Appel et Haken le démontrent vraiment, avec l'aide d'un ordinateur.</span><p>Des centaines de configurations vérifiées par machine : la communauté s'interroge longuement — une preuve que personne ne peut relire entièrement en est-elle une{{cite:appel1977}} ?</p></li>
+  <li><span class="when">1993</span><span class="what">Wiles annonce la preuve du dernier théorème de Fermat.</span><p>Une lacune est découverte pendant la relecture. Il la comble un an plus tard avec Richard Taylor ; la démonstration paraît en 1995{{cite:wiles1995}}.</p></li>
+  <li><span class="when">2012</span><span class="what">Mochizuki revendique une preuve de la conjecture abc.</span><p>Plus de 500 pages d'une théorie nouvelle. En 2018, Peter Scholze et Jakob Stix exposent ce qu'ils considèrent comme un trou irréparable{{cite:scholze2018}}. L'article est publié en 2021 dans une revue dont Mochizuki est rédacteur en chef ; la majorité des spécialistes considèrent toujours la conjecture comme ouverte.</p></li>
+</ol>
+<p>Ce dernier cas est précieux : il montre qu'être « démontré » est aussi, en pratique, un <strong>jugement collectif</strong>. Une preuve n'est acceptée que lorsque la communauté a pu la vérifier.</p>
+
+<h2 id="formel">La réponse moderne : faire vérifier les preuves par des machines</h2>
+<p>Depuis une vingtaine d'années, une révolution discrète est en cours : la {{g:verification-formelle}}. Des logiciels appelés assistants de preuve (Coq, devenu Rocq, Lean, Isabelle…) vérifient chaque pas logique d'une démonstration, sans rien laisser à l'implicite.</p>
+<ul>
+  <li><strong>2005</strong> — Georges Gonthier et Benjamin Werner achèvent une preuve entièrement vérifiée du théorème des quatre couleurs en Coq{{cite:gonthier2008}}.</li>
+  <li><strong>2014</strong> — Le projet Flyspeck, mené par Thomas Hales, vérifie formellement sa démonstration de la conjecture de Kepler sur l'empilement des sphères, que les relecteurs humains n'avaient pu certifier qu'« à 99 % »{{cite:hales2017}}.</li>
+  <li><strong>2021-2022</strong> — À l'invitation de Peter Scholze, qui doutait lui-même d'un de ses résultats les plus techniques, une communauté d'utilisateurs de Lean le vérifie entièrement : c'est la <em>Liquid Tensor Experiment</em>{{cite:castelvecchi2021}}.</li>
+</ul>
+<p>Le doute ne disparaît pas complètement : il faut faire confiance au petit noyau logiciel qui vérifie les preuves, au matériel, et à la traduction correcte de l'énoncé en langage formel. Mais le risque ne porte plus sur des centaines de pages : il se <strong>concentre</strong> sur quelques milliers de lignes de code, examinées par des milliers de personnes. C'est sans doute ce qui, dans toute l'activité humaine, se rapproche le plus d'une certitude à 100 %.</p>
+
+<h2 id="retenir">Ce qu'il faut retenir</h2>
+<div class="two">
+  <div>
+    <h4>Ce qui est certain</h4>
+    <p>Un théorème correctement démontré découle nécessairement de ses axiomes. Aucune expérience ne le réfutera jamais.</p>
+  </div>
+  <div>
+    <h4>Ce qui ne l'est pas</h4>
+    <p>Que les axiomes soient cohérents (Gödel interdit de le prouver de l'intérieur), qu'une longue preuve humaine soit sans faille, et que la structure mathématique décrive le monde physique.</p>
+  </div>
+</div>
+<p>Quant aux grandes questions encore ouvertes — l'hypothèse de Riemann, P = NP et quatre autres des sept « problèmes du millénaire »{{cite:clay}} —, elles sont au {{lvl:7}} : on ne sait pas, et l'on sait précisément ce qu'on ne sait pas. Voir {{link:frontieres#maths|Les frontières}}.</p>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les mathématiques sont-elles certaines à 100 % ?</title>
+<meta name="description" content="Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.">
+<link rel="canonical" href="https://ouaisfieu.github.io/rien/mathematiques/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Claude (IA, Anthropic)">
+<meta name="keywords" content="démonstration, axiomes, Gödel, incomplétude, vérification formelle, Lean, Coq, certitude mathématique">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1311">
+<link rel="icon" href="/rien/assets/favicon.svg?v=7264be8543" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/rien/assets/apple-touch-icon.png?v=85c0044982">
+<link rel="manifest" href="/rien/manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="Rien (ou presque)" href="/rien/feed.xml">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="stylesheet" href="/rien/assets/style.css?v=1047d540d2">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Rien (ou presque)">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les mathématiques sont-elles certaines à 100 % ?">
+<meta property="og:description" content="Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.">
+<meta property="og:url" content="https://ouaisfieu.github.io/rien/mathematiques/">
+<meta property="og:image" content="https://ouaisfieu.github.io/rien/assets/og-mathematiques.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logique et mathématiques : la certitude démontrée — Rien (ou presque)">
+<meta property="article:published_time" content="2026-09-30">
+<meta property="article:modified_time" content="2026-09-30">
+<meta property="article:author" content="Claude">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Les mathématiques sont-elles certaines à 100 % ?">
+<meta name="twitter:description" content="Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.">
+<meta name="twitter:image" content="https://ouaisfieu.github.io/rien/assets/og-mathematiques.png">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://ouaisfieu.github.io/rien/#site",
+   "url": "https://ouaisfieu.github.io/rien/",
+   "name": "Rien (ou presque)",
+   "alternateName": "De quoi la science est-elle sûre à 100 % ?",
+   "description": "Site de vulgarisation scientifique pour le grand public : ce que la science sait avec certitude, ce qu'elle sait presque sûrement, ce qu'elle ignore — et comment elle fait la différence.",
+   "inLanguage": "fr",
+   "creator": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur",
+   "name": "Claude",
+   "description": "Assistant d'intelligence artificielle conçu par Anthropic. Textes rédigés à la demande d'un éditeur qui souhaite rester anonyme.",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+   },
+   "url": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://ouaisfieu.github.io/rien/mathematiques/#fil",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Accueil",
+     "item": "https://ouaisfieu.github.io/rien/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Logique et mathématiques",
+     "item": "https://ouaisfieu.github.io/rien/mathematiques/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://ouaisfieu.github.io/rien/mathematiques/#page",
+   "url": "https://ouaisfieu.github.io/rien/mathematiques/",
+   "name": "Les mathématiques sont-elles certaines à 100 % ?",
+   "description": "Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.",
+   "inLanguage": "fr",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://ouaisfieu.github.io/rien/assets/og-mathematiques.png",
+    "width": 1200,
+    "height": 630
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "breadcrumb": {
+    "@id": "https://ouaisfieu.github.io/rien/mathematiques/#fil"
+   }
+  },
+  {
+   "@type": "Article",
+   "@id": "https://ouaisfieu.github.io/rien/mathematiques/#article",
+   "mainEntityOfPage": {
+    "@id": "https://ouaisfieu.github.io/rien/mathematiques/#page"
+   },
+   "headline": "Les mathématiques sont-elles certaines à 100 % ?",
+   "description": "Un théorème ne sera jamais réfuté par une expérience. Mais sa certitude dépend des axiomes, bute sur Gödel et repose sur des vérifications faillibles.",
+   "inLanguage": "fr",
+   "author": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "publisher": {
+    "@id": "https://ouaisfieu.github.io/rien/a-propos/#auteur"
+   },
+   "datePublished": "2026-09-30",
+   "dateModified": "2026-09-30",
+   "image": "https://ouaisfieu.github.io/rien/assets/og-mathematiques.png",
+   "wordCount": 1034,
+   "isAccessibleForFree": true,
+   "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+   "audience": {
+    "@type": "Audience",
+    "audienceType": "Grand public"
+   },
+   "educationalLevel": "Grand public curieux, sans prérequis",
+   "isPartOf": {
+    "@id": "https://ouaisfieu.github.io/rien/#site"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Démonstration mathématique",
+     "sameAs": "https://fr.wikipedia.org/wiki/D%C3%A9monstration_(logique_et_math%C3%A9matiques)"
+    },
+    {
+     "@type": "Thing",
+     "name": "Théorèmes d'incomplétude de Gödel",
+     "sameAs": "https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8mes_d'incompl%C3%A9tude_de_G%C3%B6del"
+    },
+    {
+     "@type": "Thing",
+     "name": "Vérification formelle",
+     "sameAs": "https://en.wikipedia.org/wiki/Formal_verification"
+    }
+   ],
+   "keywords": "démonstration, axiomes, Gödel, incomplétude, vérification formelle, Lean, Coq, certitude mathématique",
+   "mentions": [
+    {
+     "@type": "Thing",
+     "name": "Théorème des quatre couleurs",
+     "sameAs": "https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_des_quatre_couleurs"
+    },
+    {
+     "@type": "Thing",
+     "name": "Conjecture de Kepler",
+     "sameAs": "https://fr.wikipedia.org/wiki/Conjecture_de_Kepler"
+    },
+    {
+     "@type": "Thing",
+     "name": "Dernier théorème de Fermat",
+     "sameAs": "https://fr.wikipedia.org/wiki/Dernier_th%C3%A9or%C3%A8me_de_Fermat"
+    }
+   ],
+   "citation": [
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+     "author": "Gödel, K.",
+     "datePublished": "1931",
+     "isPartOf": "Monatshefte für Mathematik und Physik, vol. 38, p. 173-198",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1007/BF01700692"
+     },
+     "url": "https://doi.org/10.1007/BF01700692"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Every planar map is four colorable. Part I: Discharging",
+     "author": "Appel, K. ; Haken, W.",
+     "datePublished": "1977",
+     "isPartOf": "Illinois Journal of Mathematics, vol. 21, n° 3, p. 429-490",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1215/ijm/1256049011"
+     },
+     "url": "https://doi.org/10.1215/ijm/1256049011"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Modular elliptic curves and Fermat's Last Theorem",
+     "author": "Wiles, A.",
+     "datePublished": "1995",
+     "isPartOf": "Annals of Mathematics, vol. 141, n° 3, p. 443-551",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.2307/2118559"
+     },
+     "url": "https://doi.org/10.2307/2118559"
+    },
+    {
+     "@type": "Report",
+     "name": "Why abc is still a conjecture",
+     "author": "Scholze, P. ; Stix, J.",
+     "datePublished": "2018",
+     "isPartOf": "Note de recherche",
+     "url": "https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Formal Proof — The Four-Color Theorem",
+     "author": "Gonthier, G.",
+     "datePublished": "2008",
+     "isPartOf": "Notices of the AMS, vol. 55, n° 11, p. 1382-1393",
+     "url": "https://www.ams.org/notices/200811/tx081101382p.pdf"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "A Formal Proof of the Kepler Conjecture",
+     "author": "Hales, T. et al.",
+     "datePublished": "2017",
+     "isPartOf": "Forum of Mathematics, Pi, vol. 5, e2",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1017/fmp.2017.1"
+     },
+     "url": "https://doi.org/10.1017/fmp.2017.1"
+    },
+    {
+     "@type": "NewsArticle",
+     "name": "Mathematicians welcome computer-assisted proof in 'grand unification' theory",
+     "author": "Castelvecchi, D.",
+     "datePublished": "2021",
+     "isPartOf": "Nature, vol. 595, p. 18-19",
+     "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1038/d41586-021-01627-2"
+     },
+     "url": "https://doi.org/10.1038/d41586-021-01627-2"
+    },
+    {
+     "@type": "WebPage",
+     "name": "The Millennium Prize Problems",
+     "author": "Clay Mathematics Institute",
+     "datePublished": "2000",
+     "isPartOf": "claymath.org",
+     "url": "https://www.claymath.org/millennium-problems/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body class="p-mathematiques">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="halo" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="/rien/" aria-label="Rien (ou presque) — accueil"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-h" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-h)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/" aria-current="page">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li></ul></nav>
+    <button class="theme-btn" type="button" aria-pressed="false" title="Basculer le thème clair / sombre"><span class="sr-only">Thème clair</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path class="moon" d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><g class="sun" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+  </div>
+</header>
+
+<main id="contenu" tabindex="-1">
+<article class="page">
+  <header class="hero wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="/rien/">Accueil</a></li><li aria-current="page">Logique et mathématiques</li></ol></nav>
+    <p class="kicker">Niveaux 0 et 1</p>
+    <h1>Logique et mathématiques&nbsp;: la certitude démontrée… avec astérisques</h1>
+    <p class="lead">Les mathématiques sont le seul domaine où l’on démontre au lieu d’observer. C’est ce qui leur donne une certitude unique — et c’est aussi ce qui en fixe les limites.</p>
+    <p class="byline">Texte : <a href="/rien/a-propos/#auteur" rel="author">Claude</a> <span class="muted">(IA)</span> · <span>Mis à jour le <time datetime="2026-09-30">30 septembre 2026</time></span> · <span>5 min de lecture</span></p>
+    <div class="meter">
+  <span class="meter-label" id="meter-label">Certitude abordée</span>
+  <ol class="meter-track" aria-labelledby="meter-label">
+    <li class="seg on" data-lvl="0"><span class="sr-only">Abordé : niveau 0, Indubitable</span></li><li class="seg on" data-lvl="1"><span class="sr-only">Abordé : niveau 1, Démontré</span></li><li class="seg" data-lvl="2"><span class="sr-only">niveau 2, Exact par définition</span></li><li class="seg" data-lvl="3"><span class="sr-only">niveau 3, Vérifié à l’extrême</span></li><li class="seg" data-lvl="4"><span class="sr-only">niveau 4, Établi</span></li><li class="seg" data-lvl="5"><span class="sr-only">niveau 5, Solide</span></li><li class="seg" data-lvl="6"><span class="sr-only">niveau 6, Hypothèse dominante</span></li><li class="seg" data-lvl="7"><span class="sr-only">niveau 7, Question ouverte</span></li><li class="seg" data-lvl="8"><span class="sr-only">niveau 8, Fragile</span></li>
+  </ol>
+  <a class="meter-link" href="/rien/echelle/">niveaux 0 à 1 sur l’échelle</a>
+</div>
+  </header>
+
+  <div class="wrap layout has-toc">
+    <aside class="toc" aria-labelledby="toc-t">
+      <p class="toc-t" id="toc-t">Sur cette page</p>
+      <nav aria-labelledby="toc-t"><ol><li><a href="#preuve">Une preuve n’est pas une observation</a></li><li><a href="#axiomes">Premier astérisque : les axiomes</a></li><li><a href="#godel">Deuxième astérisque : Gödel</a></li><li><a href="#humains">Troisième astérisque : les humains vérifient les preuves</a></li><li><a href="#formel">La réponse moderne : faire vérifier les preuves par des machines</a></li><li><a href="#retenir">Ce qu’il faut retenir</a></li><li><a href="#sources-page">Sources</a></li></ol></nav>
+    </aside>
+    <div class="prose">
+<h2 id="preuve">Une preuve n’est pas une observation</h2>
+<p>Qu’il existe une infinité de nombres premiers, Euclide l’a établi il y a plus de deux mille ans, et aucune découverte ne pourra jamais le remettre en cause. Pourquoi une telle assurance, alors qu’aucune loi physique n’y a droit ?</p>
+<p>Parce qu’une <a class="gloss" href="/rien/glossaire/#demonstration" title="Enchaînement de déductions qui établit, à partir d'axiomes et de règles logiques explicites, qu'un énoncé est nécessairement vrai dans ce cadre. C'est la seule forme de preuve qui ne dépend d'aucune observation.">démonstration</a> ne s’appuie sur aucune observation. Elle part d’énoncés admis — les <a class="gloss" href="/rien/glossaire/#axiome" title="Énoncé admis sans démonstration, qui sert de point de départ à un système déductif. Les théorèmes d'un système ne sont jamais « plus vrais » que ses axiomes : ils en découlent.">axiomes</a> — et en tire des conséquences au moyen de règles logiques explicites. Si les règles sont respectées, la conclusion n’est pas « très probablement » vraie : elle est <em>nécessairement</em> vraie, dans ce cadre. C’est une <a class="gloss" href="/rien/glossaire/#deduction" title="Raisonnement dont la conclusion découle nécessairement des prémisses. Si les prémisses sont vraies, la conclusion l'est aussi — mais la déduction n'apprend rien que les prémisses ne contenaient déjà.">déduction</a>, et non une <a class="gloss" href="/rien/glossaire/#induction" title="Raisonnement qui généralise à partir de cas observés (« le Soleil s'est toujours levé, donc il se lèvera demain »). Indispensable aux sciences expérimentales, mais jamais logiquement concluant : c'est le « problème de Hume ».">induction</a>.</p>
+<p>Cette certitude a un prix, que la philosophie connaît depuis longtemps : une déduction ne contient rien que ses prémisses ne contenaient déjà. Elle explicite, elle ne découvre pas le monde. C’est pour cela que les mathématiques occupent les <a class="lvl" data-lvl="0" href="/rien/echelle/#niveau-0" title="Indubitable par construction">niveaux 0</a> et <a class="lvl" data-lvl="1" href="/rien/echelle/#niveau-1" title="Démontré">niveau 1</a> de notre échelle, et pas le sommet d’une échelle « du monde ».</p>
+
+<div class="box key">
+  <p class="box-t">Le cas exemplaire de la géométrie</p>
+  <p>Le théorème de Pythagore est démontré depuis l’Antiquité, dans la géométrie d’Euclide. Mais l’espace physique est-il euclidien ? Ça, c’est une question empirique — et la relativité générale a montré qu’il ne l’est pas exactement : il est courbé par la masse. Le théorème n’est pas devenu faux pour autant. C’est son <em>application</em> au monde qui a changé de statut. Toute la différence entre certitude mathématique et savoir scientifique tient dans cet exemple.</p>
+</div>
+
+<h2 id="axiomes">Premier astérisque : les axiomes</h2>
+<p>Un théorème dit : « si ces axiomes, alors cette conclusion ». Sa vérité est conditionnelle. En changeant un seul axiome — celui des parallèles —, les mathématiciens du XIX<sup>e</sup> siècle ont obtenu des géométries non euclidiennes tout aussi cohérentes, où la somme des angles d’un triangle n’est pas 180°.</p>
+<p>Pour l’essentiel des mathématiques actuelles, le socle est une théorie des ensembles appelée ZFC. Personne n’y a trouvé de contradiction en un siècle d’usage intensif. Mais peut-on <em>démontrer</em> qu’il n’y en a aucune ? C’est là qu’intervient Gödel.</p>
+
+<h2 id="godel">Deuxième astérisque : Gödel</h2>
+<p>En 1931, Kurt Gödel publie deux résultats qui bouleversent la logique<sup class="cite"><a href="#src-godel1931" aria-label="Source 1">1</a></sup>. Ils sont souvent mal résumés ; voici ce qu’ils disent, en substance :</p>
+<ol>
+  <li>Dans tout système formel cohérent assez riche pour exprimer l’arithmétique, il existe des énoncés qu’on ne peut <strong>ni démontrer ni réfuter</strong> à l’intérieur du système.</li>
+  <li>Un tel système ne peut pas démontrer <strong>sa propre cohérence</strong> — sauf s’il est incohérent.</li>
+</ol>
+<p>Ce que Gödel ne dit <em>pas</em> : que les mathématiques sont incertaines, ou que « tout est relatif ». Les théorèmes démontrés restent démontrés. Ce qu’il établit, c’est une limite : on ne pourra jamais tout démontrer, et la cohérence du socle ne se prouve pas depuis l’intérieur. Le fondement ultime repose sur une confiance — extrêmement bien étayée par l’usage, mais une confiance.</p>
+<p class="pull">Ironie du sort : l’incomplétude elle-même est un <em>théorème</em>. On est certain, par démonstration, qu’on ne peut pas tout démontrer.</p>
+
+<h2 id="humains">Troisième astérisque : les humains vérifient les preuves</h2>
+<p>La logique ne se trompe pas ; les mathématiciens, si. Et plus une démonstration est longue, plus le risque qu’une erreur passe inaperçue augmente.</p>
+<ol class="timeline">
+  <li><span class="when">1879</span><span class="what">Kempe « démontre » le théorème des quatre couleurs.</span><p>La preuve est acceptée par la communauté… jusqu’à ce que Heawood y trouve une faille en 1890. Onze ans de fausse certitude.</p></li>
+  <li><span class="when">1976</span><span class="what">Appel et Haken le démontrent vraiment, avec l’aide d’un ordinateur.</span><p>Des centaines de configurations vérifiées par machine : la communauté s’interroge longuement — une preuve que personne ne peut relire entièrement en est-elle une<sup class="cite"><a href="#src-appel1977" aria-label="Source 2">2</a></sup> ?</p></li>
+  <li><span class="when">1993</span><span class="what">Wiles annonce la preuve du dernier théorème de Fermat.</span><p>Une lacune est découverte pendant la relecture. Il la comble un an plus tard avec Richard Taylor ; la démonstration paraît en 1995<sup class="cite"><a href="#src-wiles1995" aria-label="Source 3">3</a></sup>.</p></li>
+  <li><span class="when">2012</span><span class="what">Mochizuki revendique une preuve de la conjecture abc.</span><p>Plus de 500 pages d’une théorie nouvelle. En 2018, Peter Scholze et Jakob Stix exposent ce qu’ils considèrent comme un trou irréparable<sup class="cite"><a href="#src-scholze2018" aria-label="Source 4">4</a></sup>. L’article est publié en 2021 dans une revue dont Mochizuki est rédacteur en chef ; la majorité des spécialistes considèrent toujours la conjecture comme ouverte.</p></li>
+</ol>
+<p>Ce dernier cas est précieux : il montre qu’être « démontré » est aussi, en pratique, un <strong>jugement collectif</strong>. Une preuve n’est acceptée que lorsque la communauté a pu la vérifier.</p>
+
+<h2 id="formel">La réponse moderne : faire vérifier les preuves par des machines</h2>
+<p>Depuis une vingtaine d’années, une révolution discrète est en cours : la <a class="gloss" href="/rien/glossaire/#verification-formelle" title="Contrôle d'une démonstration par un logiciel (Coq/Rocq, Lean, Isabelle…) qui en vérifie chaque étape. Le doute ne disparaît pas : il se concentre sur un petit noyau logiciel, lui-même très étudié.">vérification formelle</a>. Des logiciels appelés assistants de preuve (Coq, devenu Rocq, Lean, Isabelle…) vérifient chaque pas logique d’une démonstration, sans rien laisser à l’implicite.</p>
+<ul>
+  <li><strong>2005</strong> — Georges Gonthier et Benjamin Werner achèvent une preuve entièrement vérifiée du théorème des quatre couleurs en Coq<sup class="cite"><a href="#src-gonthier2008" aria-label="Source 5">5</a></sup>.</li>
+  <li><strong>2014</strong> — Le projet Flyspeck, mené par Thomas Hales, vérifie formellement sa démonstration de la conjecture de Kepler sur l’empilement des sphères, que les relecteurs humains n’avaient pu certifier qu’« à 99 % »<sup class="cite"><a href="#src-hales2017" aria-label="Source 6">6</a></sup>.</li>
+  <li><strong>2021-2022</strong> — À l’invitation de Peter Scholze, qui doutait lui-même d’un de ses résultats les plus techniques, une communauté d’utilisateurs de Lean le vérifie entièrement : c’est la <em>Liquid Tensor Experiment</em><sup class="cite"><a href="#src-castelvecchi2021" aria-label="Source 7">7</a></sup>.</li>
+</ul>
+<p>Le doute ne disparaît pas complètement : il faut faire confiance au petit noyau logiciel qui vérifie les preuves, au matériel, et à la traduction correcte de l’énoncé en langage formel. Mais le risque ne porte plus sur des centaines de pages : il se <strong>concentre</strong> sur quelques milliers de lignes de code, examinées par des milliers de personnes. C’est sans doute ce qui, dans toute l’activité humaine, se rapproche le plus d’une certitude à 100 %.</p>
+
+<h2 id="retenir">Ce qu’il faut retenir</h2>
+<div class="two">
+  <div>
+    <h4>Ce qui est certain</h4>
+    <p>Un théorème correctement démontré découle nécessairement de ses axiomes. Aucune expérience ne le réfutera jamais.</p>
+  </div>
+  <div>
+    <h4>Ce qui ne l’est pas</h4>
+    <p>Que les axiomes soient cohérents (Gödel interdit de le prouver de l’intérieur), qu’une longue preuve humaine soit sans faille, et que la structure mathématique décrive le monde physique.</p>
+  </div>
+</div>
+<p>Quant aux grandes questions encore ouvertes — l’hypothèse de Riemann, P = NP et quatre autres des sept « problèmes du millénaire »<sup class="cite"><a href="#src-clay" aria-label="Source 8">8</a></sup> —, elles sont au <a class="lvl" data-lvl="7" href="/rien/echelle/#niveau-7" title="Question ouverte">niveau 7</a> : on ne sait pas, et l’on sait précisément ce qu’on ne sait pas. Voir <a href="/rien/frontieres/#maths">Les frontières</a>.</p>
+
+<section class="page-sources" aria-labelledby="sources-page">
+  <h2 id="sources-page">Sources de cette page</h2>
+  <ol>
+    <li id="src-godel1931"><span class="c-auth">Gödel, K.</span> (1931). « <span class="c-title">Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I</span> ». <cite>Monatshefte für Mathematik und Physik, vol. 38, p. 173-198</cite>. <a href="https://doi.org/10.1007/BF01700692" rel="noopener">doi:10.1007/BF01700692</a></li>
+    <li id="src-appel1977"><span class="c-auth">Appel, K. ; Haken, W.</span> (1977). « <span class="c-title">Every planar map is four colorable. Part I: Discharging</span> ». <cite>Illinois Journal of Mathematics, vol. 21, n° 3, p. 429-490</cite>. <a href="https://doi.org/10.1215/ijm/1256049011" rel="noopener">doi:10.1215/ijm/1256049011</a></li>
+    <li id="src-wiles1995"><span class="c-auth">Wiles, A.</span> (1995). « <span class="c-title">Modular elliptic curves and Fermat’s Last Theorem</span> ». <cite>Annals of Mathematics, vol. 141, n° 3, p. 443-551</cite>. <a href="https://doi.org/10.2307/2118559" rel="noopener">doi:10.2307/2118559</a></li>
+    <li id="src-scholze2018"><span class="c-auth">Scholze, P. ; Stix, J.</span> (2018). « <span class="c-title">Why abc is still a conjecture</span> ». <cite>Note de recherche</cite>. <a href="https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf" rel="noopener">math.uni-bonn.de</a></li>
+    <li id="src-gonthier2008"><span class="c-auth">Gonthier, G.</span> (2008). « <span class="c-title">Formal Proof — The Four-Color Theorem</span> ». <cite>Notices of the AMS, vol. 55, n° 11, p. 1382-1393</cite>. <a href="https://www.ams.org/notices/200811/tx081101382p.pdf" rel="noopener">ams.org</a></li>
+    <li id="src-hales2017"><span class="c-auth">Hales, T. et al.</span> (2017). « <span class="c-title">A Formal Proof of the Kepler Conjecture</span> ». <cite>Forum of Mathematics, Pi, vol. 5, e2</cite>. <a href="https://doi.org/10.1017/fmp.2017.1" rel="noopener">doi:10.1017/fmp.2017.1</a></li>
+    <li id="src-castelvecchi2021"><span class="c-auth">Castelvecchi, D.</span> (2021). « <span class="c-title">Mathematicians welcome computer-assisted proof in 'grand unification' theory</span> ». <cite>Nature, vol. 595, p. 18-19</cite>. <a href="https://doi.org/10.1038/d41586-021-01627-2" rel="noopener">doi:10.1038/d41586-021-01627-2</a></li>
+    <li id="src-clay"><span class="c-auth">Clay Mathematics Institute</span> (2000). « <span class="c-title">The Millennium Prize Problems</span> ». <cite>claymath.org</cite>. <a href="https://www.claymath.org/millennium-problems/" rel="noopener">claymath.org</a></li>
+  </ol>
+  <p class="all-src"><a href="/rien/sources/">Toutes les sources du site</a></p>
+</section>
+    </div>
+  </div>
+
+  <nav class="wrap pager" aria-label="Pages précédente et suivante">
+    <a class="prev" href="/rien/echelle/" rel="prev"><span class="dir">← Précédent</span><span class="t">L’échelle de la certitude</span></a>
+    <a class="next" href="/rien/physique/" rel="next"><span class="dir">Suivant →</span><span class="t">Les lois physiques</span></a>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-in">
+    <div class="f-brand">
+      <a class="brand" href="/rien/"><svg class="enso" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true" focusable="false">
+  <defs><linearGradient id="lg-f" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--green)"/><stop offset="1" stop-color="var(--lilac)"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#lg-f)" stroke-width="5" stroke-linecap="round" pathLength="100" stroke-dasharray="93 7" transform="rotate(-62 32 32)"/>
+  <circle cx="32" cy="32" r="3.2" fill="var(--lilac)"/>
+</svg><span class="brand-t"><span class="brand-n">Rien</span><span class="brand-s">(ou presque)</span></span></a>
+      <p>De quoi la science est-elle sûre à 100 % ?</p>
+    </div>
+    <nav class="f-nav" aria-label="Pied de page">
+      <ul><li><a href="/rien/">Accueil</a></li><li><a href="/rien/echelle/">L’échelle</a></li><li><a href="/rien/mathematiques/">Maths</a></li><li><a href="/rien/physique/">Physique</a></li><li><a href="/rien/faits-etablis/">Faits établis</a></li><li><a href="/rien/vivant/">Le vivant</a></li><li><a href="/rien/methode/">La méthode</a></li><li><a href="/rien/erreurs/">Les erreurs</a></li><li><a href="/rien/frontieres/">Frontières</a></li><li><a href="/rien/glossaire/">Glossaire</a></li><li><a href="/rien/sources/">Sources</a></li><li><a href="/rien/a-propos/">À propos</a></li><li><a href="/rien/feed.xml">Flux Atom</a></li></ul>
+    </nav>
+    <div class="f-sign" id="signature">
+      <p>Textes rédigés par <strong>Claude</strong>, une intelligence artificielle conçue par Anthropic, à la demande d’un éditeur qui a choisi de rester anonyme. Une IA peut se tromper : chaque affirmation importante renvoie à sa source. <a href="https://github.com/ouaisfieu/rien/issues">Signaler une erreur</a>.</p>
+      <p class="muted">Contenu sous licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Aucun cookie, aucun traceur, aucune ressource tierce.</p>
+    </div>
+  </div>
+</footer>
+<script src="/rien/assets/app.js?v=b0b719ac0c" defer></script>
+</body>
+</html>
